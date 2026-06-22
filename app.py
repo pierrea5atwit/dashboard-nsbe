@@ -110,23 +110,4 @@ def main() -> None:
                 tooltip={"text": "{chapter_name}\n{city}, {state} {country}"},
             )
         )
-        if len(mapped) < len(result):
-            st.caption(f"{len(result) - len(mapped)} chapter(s) had no mappable location.")
-    else:
-        st.info("No chapters with mappable locations for this filter.")
-
-    # --- Text list + download ---------------------------------------------
-    names = engine.chapter_name_list(result)
-    st.subheader(f"Chapters ({len(names)})")
-    st.dataframe(pd.DataFrame({"Chapter": names}), use_container_width=True, hide_index=True)
-    st.download_button(
-        "Download list (.txt)",
-        data="\n".join(names),
-        file_name="chapters.txt",
-        mime="text/plain",
-    )
-
-
-if __name__ == "__main__":
-    main()
-# end of app.py
+        if len(mapped) < len(r

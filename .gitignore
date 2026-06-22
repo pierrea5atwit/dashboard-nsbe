@@ -1,16 +1,14 @@
-# Data snapshots are not source — keep them local
+# local Streamlit snapshots (webapp bundles its own under webapp/api/data)
 data/snapshots/*.xlsx
 data/snapshots/*.xls
-
-# Python
+# python / node / build
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 .pytest_cache/
-
-# Streamlit
-.streamlit/secrets.toml
-
-# OS
+node_modules/
+web/dist/
+webapp/web/dist/
+.vercel
 .DS_Store

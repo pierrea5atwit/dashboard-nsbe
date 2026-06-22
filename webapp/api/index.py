@@ -102,17 +102,4 @@ def query(body: QueryBody):
     points = [
         {
             "lat": float(r.lat),
-            "lon": float(r.lon),
-            "name": _clean(r.chapter_name),
-            "city": _clean(r.city),
-            "state": _clean(r.state),
-            "country": _clean(r.country),
-        }
-        for r in mapped.itertuples()
-    ]
-    return {
-        "count": int(len(res)),
-        "mapped": int(len(mapped)),
-        "points": points,
-        "names": engine.chapter_name_list(res),
-    }
+       

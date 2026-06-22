@@ -1,5 +1,0 @@
-name: "NSBE Jr. — All"
-snapshot: latest
-filters:
-  chapter_type: [NSBE Jr. Chapter]
-outputs: [map, table, list]

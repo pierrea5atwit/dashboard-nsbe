@@ -1,6 +1,0 @@
-name: "Region 1 — Collegiate"
-snapshot: latest
-filters:
-  region: [Region 1]
-  chapter_type: [Collegiate Chapter]
-outputs: [map, table, list]

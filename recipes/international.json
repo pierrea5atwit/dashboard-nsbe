@@ -1,0 +1,6 @@
+{
+  "name": "International (non-US)",
+  "filters": {
+    "country": ["Canada", "Ghana", "Nigeria", "Liberia", "Tanzania, United Republic of", "Jamaica", "Haiti"]
+  }
+}

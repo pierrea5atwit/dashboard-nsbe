@@ -1,5 +1,0 @@
-name: "International (non-US)"
-snapshot: latest
-filters:
-  country: [Canada, Ghana, Nigeria, Liberia, "Tanzania, United Republic of", Jamaica, Haiti]
-outputs: [map, table, list]

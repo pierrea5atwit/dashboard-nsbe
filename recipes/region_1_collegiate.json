@@ -1,0 +1,7 @@
+{
+  "name": "Region 1 — Collegiate",
+  "filters": {
+    "region": ["Region 1"],
+    "chapter_type": ["Collegiate Chapter"]
+  }
+}

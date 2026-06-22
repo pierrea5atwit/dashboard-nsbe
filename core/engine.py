@@ -1,28 +1,32 @@
 """The single audited transform: a validated Recipe applied to a snapshot.
 
-Both saved-recipe buttons and the manual filter widgets call ``apply_recipe``,
+Both saved-recipe buttons and the manual filter widgets call ``apply_filters``,
 so there is exactly one code path that turns a filter spec into rows.
+
+Dependency-free on purpose: uses only the stdlib + pandas, so the app runs on
+Streamlit Cloud's base image without any extra pip installs.
 """
 from __future__ import annotations
 
+import json
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import pandas as pd
-import yaml
-from pydantic import BaseModel, Field
 
 # Filterable canonical dimensions. Filtering is AND across dimensions,
 # OR within a single dimension's list (isin).
 FILTER_DIMENSIONS = ["zone", "region", "chapter_type", "state", "country", "account_type"]
 
 
-class Recipe(BaseModel):
+@dataclass
+class Recipe:
     name: str
+    filters: dict[str, list[str]] = field(default_factory=dict)
     snapshot: str = "latest"
-    filters: dict[str, list[str]] = Field(default_factory=dict)
-    outputs: list[str] = Field(default_factory=lambda: ["map", "table", "list"])
+    outputs: list[str] = field(default_factory=lambda: ["map", "table", "list"])
 
-    def model_post_init(self, _ctx) -> None:
+    def __post_init__(self) -> None:
         bad = set(self.filters) - set(FILTER_DIMENSIONS)
         if bad:
             raise ValueError(
@@ -32,13 +36,18 @@ class Recipe(BaseModel):
 
 
 def load_recipe(path: str | Path) -> Recipe:
-    with open(path, "r", encoding="utf-8") as fh:
-        return Recipe(**yaml.safe_load(fh))
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    return Recipe(
+        name=data["name"],
+        filters=data.get("filters", {}),
+        snapshot=data.get("snapshot", "latest"),
+        outputs=data.get("outputs", ["map", "table", "list"]),
+    )
 
 
 def load_recipes(folder: str | Path) -> list[Recipe]:
     folder = Path(folder)
-    return [load_recipe(p) for p in sorted(folder.glob("*.yaml"))]
+    return [load_recipe(p) for p in sorted(folder.glob("*.json"))]
 
 
 def apply_recipe(df: pd.DataFrame, recipe: Recipe) -> pd.DataFrame:

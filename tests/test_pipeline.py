@@ -47,7 +47,7 @@ def test_composed_filter_and_logic(df):
 
 
 def test_recipe_count_matches_manual(df):
-    r = engine.load_recipe(ROOT / "recipes" / "region_1_collegiate.yaml")
+    r = engine.load_recipe(ROOT / "recipes" / "region_1_collegiate.json")
     via_recipe = engine.apply_recipe(df, r)
     via_manual = engine.apply_filters(df, r.filters)
     assert len(via_recipe) == len(via_manual)

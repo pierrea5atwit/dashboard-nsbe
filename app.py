@@ -14,7 +14,9 @@ import streamlit as st
 from core import engine, geo
 from core.ingest import load_snapshot, snapshot_date_from_name
 
-SNAPSHOT_DIR = Path(__file__).parent / "data" / "snapshots"
+DATA_DIR = Path(__file__).parent / "data"
+SNAPSHOT_DIR = DATA_DIR / "snapshots"
+CLEAN_CSV = DATA_DIR / "chapters_clean.csv"  # committed, PII-free, pre-geocoded (used on cloud)
 RECIPE_DIR = Path(__file__).parent / "recipes"
 
 # Filter dimensions exposed as UI widgets (a subset of engine.FILTER_DIMENSIONS).
@@ -38,6 +40,24 @@ def _load(path_str: str, _mtime: float) -> pd.DataFrame:
     return geo.geocode(df)
 
 
+@st.cache_data(show_spinner=True)
+def _load_clean(_mtime: float) -> pd.DataFrame:
+    # Committed, PII-free, already-geocoded data — used on Streamlit Cloud.
+    return pd.read_csv(CLEAN_CSV)
+
+
+def load_data() -> tuple[pd.DataFrame, str]:
+    """Prefer the committed clean CSV (cloud); fall back to local xlsx (dev)."""
+    if CLEAN_CSV.exists():
+        df = _load_clean(CLEAN_CSV.stat().st_mtime)
+        date = str(df["snapshot_date"].iloc[0])[:10] if "snapshot_date" in df else "—"
+        return df, f"clean export · {date}"
+    path = _latest_snapshot_path()
+    if path is None:
+        return pd.DataFrame(), ""
+    return _load(str(path), path.stat().st_mtime), path.name
+
+
 def _apply_recipe_to_widgets(recipe: engine.Recipe) -> None:
     """Populate widget state from a recipe; warn on dims the UI can't show."""
     for dim in UI_DIMENSIONS:
@@ -55,13 +75,15 @@ def _apply_recipe_to_widgets(recipe: engine.Recipe) -> None:
 def main() -> None:
     st.title("NSBE Chapter Dashboard")
 
-    path = _latest_snapshot_path()
-    if path is None:
-        st.warning(f"No snapshot found. Drop an export .xlsx into `{SNAPSHOT_DIR}`.")
+    df, label = load_data()
+    if df.empty:
+        st.warning(
+            f"No data found. Add `{CLEAN_CSV.name}` to `data/`, or drop an export "
+            f".xlsx into `{SNAPSHOT_DIR}`."
+        )
         st.stop()
 
-    df = _load(str(path), path.stat().st_mtime)
-    st.caption(f"Snapshot: **{path.name}** · {len(df)} active chapters")
+    st.caption(f"Snapshot: **{label}** · {len(df)} active chapters")
 
     # --- Saved recipes as buttons (write directly to widget state) --------
     with st.sidebar:

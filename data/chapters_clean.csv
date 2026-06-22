@@ -1,0 +1,563 @@
+chapter_id,chapter_name,zone,region,chapter_type,account_type,city,state,country,lat,lon,snapshot_date
+a0M6g00000BqR0t,University of Pennsylvania,Danger Zone,Region 2,Collegiate Chapter,Chapter,Philadelphia,,United States,40.020069233989176,-98.62228509217356,2026-06-19
+a0M6g00000BqRgH,University of Lagos Chapter,International Zone,Region 1,Collegiate Chapter,Chapter,Akoka Lagos State,,Nigeria,9.333018543937968,8.813457620341556,2026-06-19
+a0M6g00000Fo5jV,At LargeNSBE Jr.(Region 1),,Region 1,NSBE Jr. Chapter,Chapter,,,United States,39.544224143521355,-98.24656435385427,2026-06-19
+a0M6g00000Fo5jW,At LargeNSBE Jr.(Region 2),,Region 2,NSBE Jr. Chapter,Chapter,,,United States,40.01109779139325,-98.37925498630612,2026-06-19
+a0M6g00000Fo5jX,At LargeNSBE Jr.(Region 3),,Region 3,NSBE Jr. Chapter,Chapter,,,United States,39.567979542872884,-98.6142298434731,2026-06-19
+a0M6g00000Fo5jY,At LargeNSBE Jr.(Region 4),,Region 4,NSBE Jr. Chapter,Chapter,,,United States,39.737858616962804,-98.28076450780597,2026-06-19
+a0M6g00000Fo5jZ,At LargeNSBE Jr.(Region 5),,Region 5,NSBE Jr. Chapter,Chapter,,,United States,39.92900558405646,-98.35356687071041,2026-06-19
+a0M6g00000Fo5ja,At LargeNSBE Jr.(Region 6),,Region 6,NSBE Jr. Chapter,Chapter,,,United States,39.78868993917913,-98.77043289475066,2026-06-19
+a0M6g00000W35E1,Koforidua Professional Chapter Ghana,International Zone,Region 1,Professional Chapter,Chapter,"Koforidua, Eastern Region",,Ghana,7.984709350911085,-1.3285279207270775,2026-06-19
+a0M6g00000W36P0,Federal University of Technology Minna NSBE Chapter,International Zone,Region 1,Collegiate Chapter,Chapter,Minna,,Nigeria,9.311341820394809,8.767465079385445,2026-06-19
+a0M6g00000W36Px,University of Ilorin,International Zone,Region 1,Collegiate Chapter,Chapter,Ilorin,,Nigeria,9.262661418059762,8.573468177690907,2026-06-19
+a0M6g00000W36RC,Lagos Technical Professionals,International Zone,Region 1,Professional Chapter,Chapter,"AGBARA, OGUN STATE",,Nigeria,9.411488617076433,8.95048478492554,2026-06-19
+a0M6g00000W36Rt,Takoradi Professional Chapter Ghana,International Zone,Region 1,Collegiate Chapter,Chapter,Takoradi,,Ghana,8.141368447951633,-1.2369529045036227,2026-06-19
+a0M6g00000W36Tf,NSBE Accra Alumni Extension Chapter,International Zone,Region 1,Professional Chapter,Chapter,ACCRA,,Ghana,7.923204702608924,-1.34253736394894,2026-06-19
+a0M6g00000W36Tk,Tema Alumni Extension,International Zone,Region 1,Professional Chapter,Chapter,TEMA,,Ghana,7.704502644447284,-0.8950657327302819,2026-06-19
+a0M6g00000W36UT,NSBE Tarkwa Alumni Extension,International Zone,Region 1,Professional Chapter,Chapter,TARKWA,,Ghana,8.117833509135473,-0.6959431872960531,2026-06-19
+a0M6g00000W36Yu,Oakland County (MI) Links / Akoma Academy Ghana NSBE Jr Chapter,International Zone,Region 1,NSBE Jr. Chapter,Chapter,Cape Coast,,Ghana,7.824577750696707,-1.1138782057755918,2026-06-19
+a0M6g00000W36cI,Oakland County (MI) Links / BASICS International Ghana NSBE Jr Chapter,International Zone,Region 1,NSBE Jr. Chapter,Chapter,Accra GA184,,Ghana,7.925189067893066,-1.240570048641,2026-06-19
+a0M6g00000aMZDF,NSBE University of Ibadan Chapter,,Region 1,Collegiate Chapter,Non-Member,Ibadan,,Nigeria,8.82294505373483,8.658293448358153,2026-06-19
+a0MUJ000002Qps9,NSBE-ACity University Chapter,,Region 1,Collegiate Chapter,Non-Member,"Accra, Greater Accra",,Ghana,7.755336544335619,-0.9043302037222429,2026-06-19
+a0MUJ000004LYcH,Campion College Engineering NSBE Jr Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Hopefield Kingston,,Jamaica,18.065606343210632,-77.0646252627595,2026-06-19
+a0MUJ000005CFmn,Kwara State University (KWASU) Chapter,,Region 1,Collegiate Chapter,Non-Member,Ilorin,,Nigeria,9.222185571401575,8.543956648967429,2026-06-19
+a0MUJ0000089tS8,RBG International Dar es Salaam NSBE Jr.,,Region 2,NSBE Jr. Chapter,Non-Member,Dar es Salaam,,"Tanzania, United Republic of",-6.136418139023359,35.10213505024777,2026-06-19
+a0MUJ000008HghO,Computational Engineering Professionals,,Region 1,Professional Chapter,Non-Member,Benin Edo,,Nigeria,9.003234865321122,8.52712967275117,2026-06-19
+a0MUJ000008HqiL,SOS-HGIC NSBE Jr Chapter,,Region 1,NSBE Jr. Chapter,Non-Member,Tema,,Ghana,8.074246852782483,-1.2753732614734832,2026-06-19
+a0MUJ000008ocVK,Africa International Institute of Science & Technology University College,,Region 1,Collegiate Chapter,Non-Member,Monrovia,,Liberia,6.218035741732575,-9.774346411174298,2026-06-19
+a0MUJ000009KsCT,Haiti NSBE Professionals,,Region 3,Professional Chapter,Non-Member,Port-au-Prince,,Haiti,19.172047064251498,-72.16980440038559,2026-06-19
+a0MUJ00000AmcGX,FUTA - Federal University of Technology - Akure Chapter,,Region 1,Collegiate Chapter,Non-Member,AKURE ONDO STATE,,Nigeria,9.225615765038436,8.871810321715378,2026-06-19
+a0M6g00000BqR1g,Alabama A&M University Bulldog Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Huntsville,Alabama,United States,32.77791204287684,-86.74301116283297,2026-06-19
+a0M6g00000BqR1r,Tuskegee University Chapter NSBE,Primary Zone,Region 3,Collegiate Chapter,Chapter,Tuskegee,Alabama,United States,32.55452889868936,-87.06095894852481,2026-06-19
+a0M6g00000BqR1u,The University of Alabama-Tuscaloosa,Primary Zone,Region 3,Collegiate Chapter,Chapter,Tuscaloosa,Alabama,United States,32.92455307325333,-86.8113626556998,2026-06-19
+a0M6g00000BqR20,University of South Alabama,Primary Zone,Region 3,Collegiate Chapter,Chapter,MOBILE,Alabama,United States,32.85233627453683,-86.60563079980878,2026-06-19
+a0M6g00000BqRgg,"Parker High School, LINKS-NSBE Jr. Chapter",At-Large,Region 3,NSBE Jr. Chapter,Chapter,Hoover,Alabama,United States,32.90097382400042,-86.75362441953939,2026-06-19
+a0M6g00000BqRhY,Flex Chapter of Alabama State,Primary Zone,Region 3,Collegiate Chapter,Chapter,Montgomery,Alabama,United States,32.84811601252179,-86.92836493135617,2026-06-19
+a0M6g00000W35Hp,NSBE Birmingham Professionals,Professional Zone,Region 3,Professional Chapter,Chapter,Birmingham,Alabama,United States,32.478243484197556,-86.83542782753734,2026-06-19
+a0M6g00000W35Hr,North Alabama Professionals,Professional Zone,Region 3,Professional Chapter,Chapter,HUNTSVILLE,Alabama,United States,32.60688027097367,-86.85515994939276,2026-06-19
+a0M6g00000W35I2,"Montgomery, AL Professionals NSBE Chapter",Professional Zone,Region 3,Professional Chapter,Chapter,MONTGOMERY,Alabama,United States,33.05405315128772,-86.97737235989426,2026-06-19
+a0M6g00000W36OI,Lawson State Community College,Primary Zone,Region 3,Collegiate Chapter,Chapter,Birmingham,Alabama,United States,32.497482919182346,-86.94416127558459,2026-06-19
+a0M6g00000W36Op,University of Alabama-Birmingham NSBE Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Birmingham,Alabama,United States,32.66218663043668,-86.67778843969117,2026-06-19
+a0MUJ000004UyNp,Enrichment 2 Innovation NSBE Jr. Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Huntsville,Alabama,United States,32.8465935066389,-86.59240125362551,2026-06-19
+a0MUJ000006xj7J,Jacksonville State University NSBE Chapter,,Region 3,Collegiate Chapter,Non-Member,Jacksonville,Alabama,United States,32.92169047822917,-86.85665919699194,2026-06-19
+a0M6g00002WL8oA,University of Calgary,,Region 6,Collegiate Chapter,Non-Member,Calgary,Alberta,Canada,54.153114269266226,-116.8096189560646,2026-06-19
+a0M6g00000BqR4K,Arizona State University,Southwest Zone,Region 6,Collegiate Chapter,Chapter,Tempe,Arizona,United States,33.395657451193706,-111.71818749745704,2026-06-19
+a0M6g00000BqR5A,University of Arizona NSBE Chapter,Southwest Zone,Region 6,Collegiate Chapter,Chapter,Tucson,Arizona,United States,33.885410545417514,-111.45790693882402,2026-06-19
+a0MUJ000001WsuL,Grand Canyon University NSBE Chapter,,Region 6,Collegiate Chapter,Non-Member,Phoenix,Arizona,United States,33.49264924532352,-111.43048965742764,2026-06-19
+a0M6g00000BqR3d,University of Arkansas-Fayetteville,OK Zone,Region 5,Collegiate Chapter,Chapter,FAYETTEVILLE,Arkansas,United States,34.726322471899216,-92.23569873744559,2026-06-19
+a0M6g00000BqR51,University of Arkansas - Little Rock,OK Zone,Region 5,Collegiate Chapter,Chapter,Little Rock,Arkansas,United States,34.93201339290182,-92.45640814173247,2026-06-19
+a0MUJ000002g6Pd,Philander Smith University NSBE Chapter,,Region 5,Collegiate Chapter,Non-Member,Little Rock,Arkansas,United States,34.83076246240351,-92.28192518481679,2026-06-19
+a0MUJ000009wEWr,Arkansas State University,,Region 5,Collegiate Chapter,Non-Member,STATE UNIVERSITY,Arkansas,United States,34.87297282738737,-92.66176805647873,2026-06-19
+a0M6g00000BqR4L,California State University-Chico,Northern California Zone,Region 6,Collegiate Chapter,Chapter,CHICO,California,United States,35.84880713148436,-119.35823563481533,2026-06-19
+a0M6g00000BqR4N,California State University-Fullerton,Southern California Zone,Region 6,Collegiate Chapter,Chapter,FULLERTON,California,United States,36.40220948349533,-119.54176900633247,2026-06-19
+a0M6g00000BqR4O,"California State University, Long Beach",Southern California Zone,Region 6,Collegiate Chapter,Chapter,Long Beach,California,United States,35.952311973021665,-119.35314053585658,2026-06-19
+a0M6g00000BqR4P,California State University-Los Angeles,Southern California Zone,Region 6,Collegiate Chapter,Chapter,LOS ANGELES,California,United States,36.31132863277605,-119.5297408675887,2026-06-19
+a0M6g00000BqR4Q,California State University - Northridge,Southern California Zone,Region 6,Collegiate Chapter,Chapter,Los Angeles,California,United States,36.08075605150065,-119.84099490670839,2026-06-19
+a0M6g00000BqR4R,California State Polytechnic University - Pomona,Southern California Zone,Region 6,Collegiate Chapter,Chapter,Pomona,California,United States,35.83367667350745,-119.3997423224193,2026-06-19
+a0M6g00000BqR4S,California State University-Sacramento,Northern California Zone,Region 6,Collegiate Chapter,Chapter,SACRAMENTO,California,United States,36.08524640288353,-119.88990964464334,2026-06-19
+a0M6g00000BqR4T,San Diego State University NSBE Chapter,Southern California Zone,Region 6,Collegiate Chapter,Chapter,SAN DIEGO,California,United States,35.98037263690546,-119.62611030174067,2026-06-19
+a0M6g00000BqR4U,San Francisco State University,Northern California Zone,Region 6,Collegiate Chapter,Chapter,SAN FRANCISCO,California,United States,35.889943948057464,-119.43193400113533,2026-06-19
+a0M6g00000BqR4W,California State University-San Luis Obispo,Northern California Zone,Region 6,Collegiate Chapter,Chapter,SAN LUIS OBISPO,California,United States,36.29716667088464,-119.52793993083434,2026-06-19
+a0M6g00000BqR4Z,Stanford University,Northern California Zone,Region 6,Collegiate Chapter,Chapter,Stanford,California,United States,36.06866812784257,-119.59244781150828,2026-06-19
+a0M6g00000BqR4g,Loyola Marymount University NSBE Chapter,Southern California Zone,Region 6,Collegiate Chapter,Chapter,LOS ANGELES,California,United States,36.175071578238914,-119.57667137891163,2026-06-19
+a0M6g00000BqR4p,University of California-Santa Cruz,Northern California Zone,Region 6,Collegiate Chapter,Chapter,Santa Cruz,California,United States,35.82531402479792,-119.74049881848057,2026-06-19
+a0M6g00000BqR5D,University of Southern California (USC),Southern California Zone,Region 6,Collegiate Chapter,Chapter,Los Angeles,California,United States,35.79533292170332,-119.68577042652883,2026-06-19
+a0M6g00000BqR5Y,University of California-Santa Barbara,Southern California Zone,Region 6,Collegiate Chapter,Chapter,SANTA BARBARA,California,United States,35.99710584863295,-119.93039706779376,2026-06-19
+a0M6g00000BqR5Z,"University Of California, San Diego",Southern California Zone,Region 6,Collegiate Chapter,Chapter,LA JOLLA,California,United States,35.83858507740578,-119.6202127994756,2026-06-19
+a0M6g00000BqR5b,University Of California-Irvine,,Region 6,Collegiate Chapter,Chapter,Irvine,California,United States,35.88561807797582,-119.38397991713623,2026-06-19
+a0M6g00000BqR5c,University of California-Davis,Northern California Zone,Region 6,Collegiate Chapter,Chapter,DAVIS,California,United States,36.17294579779028,-119.78875513682561,2026-06-19
+a0M6g00000BqR5d,University of California-Berkeley-BESSA,Northern California Zone,Region 6,Collegiate Chapter,Chapter,BERKELEY,California,United States,36.17984384403699,-120.0156012902792,2026-06-19
+a0M6g00000BqR5h,University of California-Merced NSBE Chapter,Northern California Zone,Region 6,Collegiate Chapter,Chapter,Merced,California,United States,36.43719444926901,-119.69395159413996,2026-06-19
+a0M6g00000BqRfU,NSBE at UC Irvine Chapter,,Region 6,Collegiate Chapter,Chapter,Irvine,California,United States,36.3141176590752,-119.97365300005428,2026-06-19
+a0M6g00000BqRfY,Southern California NSBE Jr.,Southern California Zone,Region 6,NSBE Jr. Chapter,Chapter,Los Angeles,California,United States,36.10686383158671,-119.68806910395183,2026-06-19
+a0M6g00000W35Ds,LADWP NSBE Professional Chapter,Southern California Zone,Region 6,Professional Chapter,Chapter,Los Angeles,California,United States,36.422681518482484,-119.63135436333674,2026-06-19
+a0M6g00000W35NN,Los Angeles Professionals,Southern California Zone,Region 6,Professional Chapter,Chapter,Los Angeles,California,United States,36.097645580739865,-119.84468103583566,2026-06-19
+a0M6g00000W35ZR,University of San Diego NSBE,Southern California Zone,Region 6,Collegiate Chapter,Chapter,San Diego,California,United States,35.998301298139786,-119.66709331826992,2026-06-19
+a0M6g00000W35a2,Berkeley High School NSBE Jr Chapter,Northern California Zone,Region 6,NSBE Jr. Chapter,Chapter,Berkeley,California,United States,36.07344102221353,-120.01643554408376,2026-06-19
+a0M6g00000W36PY,Santa Clara University,Southern California Zone,Region 6,Collegiate Chapter,Chapter,Santa Clara,California,United States,36.34460734693605,-119.40425145971216,2026-06-19
+a0M6g00000W36ag,LINKS to STEM of San Diego NSBE Jr.,Southern California Zone,Region 6,NSBE Jr. Chapter,Chapter,San Diego,California,United States,35.864377362299024,-119.64373869952266,2026-06-19
+a0MUJ0000012VfU,University of San Francisco Chapter,,Region 6,Collegiate Chapter,Non-Member,San Francisco,California,United States,35.84220601879481,-119.56099593487212,2026-06-19
+a0MUJ000001JDsD,Gridstone Inc NSBE Jr Chapter,,Region 6,NSBE Jr. Chapter,Non-Member,Bakersfield,California,United States,35.9630666486873,-119.56996815571566,2026-06-19
+a0MUJ000001Plsn,Fresno State Chapter NSBE,,Region 6,Collegiate Chapter,Non-Member,Fresno,California,United States,36.27509923000082,-119.49351075565764,2026-06-19
+a0MUJ000001mbKr,Diablo Valley College Chapter,,Region 6,Collegiate Chapter,Non-Member,Hercules,California,United States,35.841621662169125,-119.39035570840367,2026-06-19
+a0MUJ000002QlDR,Sponsors of Educational Opportunities - SEO NSBE Jr Chapter,,Region 6,NSBE Jr. Chapter,Non-Member,San Francisco,California,United States,35.92735279362642,-120.00537521067668,2026-06-19
+a0MUJ000002bEaj,Butte College NSBE Chapter,,Region 6,Collegiate Chapter,Non-Member,Oroville,California,United States,36.154599728574034,-119.77191840129629,2026-06-19
+a0MUJ000005Mryr,"California State University, Bakersfield",,Region 6,Collegiate Chapter,Non-Member,Bakersfield,California,United States,36.347055820192686,-119.46578796955498,2026-06-19
+a0MUJ000007JdJN,Fremont High NSBE Jr Chapter,,Region 6,NSBE Jr. Chapter,Non-Member,Oakland,California,United States,35.9882002249759,-119.36453442345118,2026-06-19
+a0MUJ000008ohy1,Long Beach City College NSBE Chapter,,Region 6,Collegiate Chapter,Non-Member,Long Beach,California,United States,35.969845486698084,-119.67102400953779,2026-06-19
+a0MUJ00000CCsQj,Pacific NSBE Chapter,,Region 6,Collegiate Chapter,Non-Member,Stockton,California,United States,35.94537856339732,-119.37633350096571,2026-06-19
+a0M6g00000BqR4X,Colorado State University,Rocky Mountain Zone,Region 6,Collegiate Chapter,Chapter,Fort Collins,Colorado,United States,38.82503647230742,-105.62966656642537,2026-06-19
+a0M6g00000BqR5W,University of Colorado-Denver Chapter,Rocky Mountain Zone,Region 6,Collegiate Chapter,Chapter,DENVER,Colorado,United States,39.01437894200213,-104.96644110516091,2026-06-19
+a0M6g00000BqR5X,University Of Colorado Boulder,Rocky Mountain Zone,Region 6,Collegiate Chapter,Chapter,Boulder,Colorado,United States,39.33398508637844,-105.13707838638014,2026-06-19
+a0M6g00000W35NR,Denver Professionals,Rocky Mountain Zone,Region 6,Professional Chapter,Chapter,DENVER,Colorado,United States,39.33336574361497,-105.0356913522115,2026-06-19
+a0MUJ000002w12b,Robert F. Smith STEAM Academy NSBE Jr Chapter,,Region 6,NSBE Jr. Chapter,Non-Member,Denver,Colorado,United States,39.07301185227052,-105.43995366371844,2026-06-19
+a0M6g00000BqQzx,University Of Connecticut,New England Zone,Region 1,Collegiate Chapter,Chapter,Mansfield,Connecticut,United States,41.78819070247769,-72.64220811578257,2026-06-19
+a0M6g00000BqQzy,University Of Hartford,New England Zone,Region 1,Collegiate Chapter,Chapter,WEST HARTFORD,Connecticut,United States,41.5093424102116,-73.03924433235693,2026-06-19
+a0M6g00000W35H2,T.A.P.S. CT Professionals (Formerly known as SNEATP),New England Zone,Region 1,Professional Chapter,Chapter,East Hartford,Connecticut,United States,41.77053472794432,-72.921648638854,2026-06-19
+a0M6g00000W35OP,ACCESS Bridgeport NSBE Jr.,New England Zone,Region 1,NSBE Jr. Chapter,Chapter,Bridgeport,Connecticut,United States,41.903551205373645,-72.93669159749602,2026-06-19
+a0M6g00000W35Yi,Fairfield University Chapter,New England Zone,Region 1,Collegiate Chapter,Chapter,Fairfield,Connecticut,United States,41.33371255268804,-72.52359212951256,2026-06-19
+a0M6g00002M7Inb,Blended Learning Academy for STEM Study (BLASS) NSBE JR. Chapter,,Region 1,NSBE Jr. Chapter,Non-Member,East Hartford,Connecticut,United States,41.35508102163715,-72.97988318428958,2026-06-19
+a0M6g00000BqR0q,University of Delaware Chapter,Danger Zone,Region 2,Collegiate Chapter,Chapter,Newark,Delaware,United States,39.38809095406459,-75.24494757141377,2026-06-19
+a0M6g00000BqR1I,Delaware State University,Danger Zone,Region 2,Collegiate Chapter,Chapter,DOVER,Delaware,United States,39.1060272660002,-75.63991442896994,2026-06-19
+a0M6g00000BqR0c,The Catholic University of America Chapter,Terror Zone,Region 2,Collegiate Chapter,Chapter,Washington,District of Columbia,United States,39.09162138676883,-76.69653850175732,2026-06-19
+a0M6g00000BqR0g,George Washington University,Terror Zone,Region 2,Collegiate Chapter,Chapter,Washington,District of Columbia,United States,38.89795683034164,-77.27608874821412,2026-06-19
+a0M6g00000BqR0h,Howard University NSBE Chapter,Terror Zone,Region 2,Collegiate Chapter,Chapter,Washington,District of Columbia,United States,38.55719340139574,-77.21605777900079,2026-06-19
+a0M6g00000BqR1G,University of the District of Columbia,Terror Zone,Region 2,Collegiate Chapter,Chapter,Washington,District of Columbia,United States,38.639713552450566,-76.902455928471,2026-06-19
+a0M6g00000W35HI,NSBE Washington DC Professionals,Terror Zone,Region 2,Professional Chapter,Chapter,WASHINGTON,District of Columbia,United States,38.63272075323997,-77.02238604786555,2026-06-19
+a0M6g00000W35N1,Phelps ACE NSBE Jr. Chapter,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Washington,District of Columbia,United States,39.03342170495002,-76.97003537354536,2026-06-19
+a0M6g00000W35SN,Friendship Collegiate Academy Nsbe Jr.,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,WASHINGTON,District of Columbia,United States,38.68728095616204,-76.81392983167241,2026-06-19
+a0M6g00000W36St,(DMV) Dynamic Mathematical Visionaries NSBE Jr.,Danger Zone,Region 2,NSBE Jr. Chapter,Chapter,Washington,District of Columbia,United States,39.04822299073106,-76.85952819725911,2026-06-19
+a0MUJ000005lmBC,Capital City NSBE Jr Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Washington,District of Columbia,United States,38.63917842609012,-77.29018933744476,2026-06-19
+a0MUJ000006HAYz,Paul Laurence Dunbar High School NSBE Jr.,,Region 2,NSBE Jr. Chapter,Non-Member,Washington,District of Columbia,United States,39.19673178570456,-77.09851226432254,2026-06-19
+a0MUJ000007DCLt,Richard Wright Schools NSBE Jr.,,Region 2,NSBE Jr. Chapter,Non-Member,Washington,District of Columbia,United States,38.75810208424666,-77.03480816825392,2026-06-19
+a0M6g00000BqR1j,Florida Atlantic University,Primary Zone,Region 3,Collegiate Chapter,Chapter,BOCA RATON,Florida,United States,27.88028394893451,-81.36784672006712,2026-06-19
+a0M6g00000BqR1k,FAMU-FSU NSBE Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Tallahassee,Florida,United States,27.61679135881744,-81.38941709948159,2026-06-19
+a0M6g00000BqR1v,University of Central Florida Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Orlando,Florida,United States,27.43368064397038,-81.64814437037123,2026-06-19
+a0M6g00000BqR1w,University of Florida - Gator Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Gainesville,Florida,United States,27.86006157817676,-81.96265481737449,2026-06-19
+a0M6g00000BqR21,University of South Florida - Tampa Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,TAMPA,Florida,United States,27.51451671794474,-81.74340297647859,2026-06-19
+a0M6g00000BqR27,University of Miami,Primary Zone,Region 3,Collegiate Chapter,Chapter,Coral Gables,Florida,United States,28.09264133850023,-81.61955321273595,2026-06-19
+a0M6g00000BqR2K,Florida Institute of Technology,Primary Zone,Region 3,Collegiate Chapter,Chapter,Melbourne,Florida,United States,28.06939525512015,-81.47373035907093,2026-06-19
+a0M6g00000BqR2N,Bethune-Cookman University Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Daytona Beach,Florida,United States,27.743446121088706,-81.48744858552348,2026-06-19
+a0M6g00000BqR2P,Embry-Riddle Aeronautical University Daytona Beach NSBE Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Daytona Beach,Florida,United States,27.42876474878389,-81.96038220226399,2026-06-19
+a0M6g00000BqR5N,Florida Gulf Coast University,Primary Zone,Region 3,Collegiate Chapter,Chapter,Fort Myers,Florida,United States,27.996879030417915,-81.47901103817239,2026-06-19
+a0M6g00000BqR5U,Tallahassee Nsbe Jr.,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Tallahassee,Florida,United States,27.579127519376506,-81.66524428658067,2026-06-19
+a0M6g00000BqRPJ,Mentoring Families and Kids NSBE Jr,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Jacksonville,Florida,United States,27.84049007449001,-81.4293657323568,2026-06-19
+a0M6g00000BqRgE,Florida Polytechnic University,Primary Zone,Region 3,Collegiate Chapter,Chapter,Lakeland,Florida,United States,27.83845401013711,-81.74798290150844,2026-06-19
+a0M6g00000W35Hm,Central Florida Professionals,Professional Zone,Region 3,Professional Chapter,Chapter,Orlando,Florida,United States,27.678207830385027,-81.73866553953854,2026-06-19
+a0M6g00000W35I0,South Florida Professionals NSBE Chapter,Professional Zone,Region 3,Professional Chapter,Chapter,Miramar,Florida,United States,27.872630717905984,-81.42953955777338,2026-06-19
+a0M6g00000W35I4,Space Coast Professionals,Professional Zone,Region 3,Professional Chapter,Chapter,Palm Bay,Florida,United States,27.73400681745341,-81.86329530593406,2026-06-19
+a0M6g00000W35ZP,Club Esteem NSBE Jr.,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Melbourne,Florida,United States,27.581942654098306,-81.5145730038296,2026-06-19
+a0M6g00000W35ZV,Florida International University NSBE Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Miami,Florida,United States,27.987877134396737,-81.96308834410212,2026-06-19
+a0MUJ000002aBDV,Brevard County (FL) Links NSBE Jr Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Rockledge,Florida,United States,27.462870199868625,-81.62067943537049,2026-06-19
+a0MUJ0000047Rlx,"Gifford Youth Achievement Center, Inc. NSBE Jr Chapter",,Region 3,NSBE Jr. Chapter,Non-Member,Vero Beach,Florida,United States,27.51860027093489,-81.45951806668057,2026-06-19
+a0MUJ000006H7pd,The Sphinx Academy,,Region 3,NSBE Jr. Chapter,Non-Member,Melbourne,Florida,United States,27.633513271746853,-81.93607264692021,2026-06-19
+a0MUJ000006nZUD,The Links Woodson Wolves NSBE Jr Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Land O' Lakes,Florida,United States,28.060958330741215,-81.92091079408532,2026-06-19
+a0MUJ000006xoTZ,South Florida NSBE Jr. Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,North Lauderdale,Florida,United States,27.615583057636556,-81.92925362336557,2026-06-19
+a0MUJ0000077CtF,The Winter Park Kappa League NSBE Jr. Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Winter Park,Florida,United States,27.49712204456575,-82.0219793885645,2026-06-19
+a0MUJ0000077EyH,NGLA - Florida East Coast NSBE Jr,,Region 3,NSBE Jr. Chapter,Non-Member,Sebastian,Florida,United States,27.455055786414984,-81.9145339703449,2026-06-19
+a0MUJ00000A6Msv,Bamn Robotics NSBE Jr Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Miami,Florida,United States,27.453646352839023,-81.62298232872233,2026-06-19
+a0M6g00000BqR1h,Atlanta University Center,Primary Zone,Region 3,Collegiate Chapter,Chapter,ATLANTA,Georgia,United States,33.167119168759655,-83.71753268021757,2026-06-19
+a0M6g00000BqR1l,Georgia Tech Society of Black Engineers Chapter,,Region 3,Collegiate Chapter,Non-Member,Atlanta,Georgia,United States,32.91321276786643,-83.63990563408444,2026-06-19
+a0M6g00000BqR29,Kennesaw Society of Black Engineers (KSU),Primary Zone,Region 3,Collegiate Chapter,Chapter,MARIETTA,Georgia,United States,33.30312245956423,-83.39728186122446,2026-06-19
+a0M6g00000BqR2E,Georgia Southern University,Primary Zone,Region 3,Collegiate Chapter,Chapter,STATESBORO,Georgia,United States,32.721051543408954,-83.86602511328243,2026-06-19
+a0M6g00000BqR2F,The Savannah State University Chapter of NSBE,Primary Zone,Region 3,Collegiate Chapter,Chapter,Savannah,Georgia,United States,32.856340409773075,-83.81850269691745,2026-06-19
+a0M6g00000BqR2J,Mercer University NSBE Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Macon,Georgia,United States,33.09048185621994,-83.70169030200776,2026-06-19
+a0M6g00000BqR2R,University of Georgia NSBE Chapter,,Region 3,Collegiate Chapter,Institution,Athens,Georgia,United States,32.72509688394931,-83.73154410307829,2026-06-19
+a0M6g00000BqRfk,Arabia Mountain High School NSBE Jr.,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Lithonia,Georgia,United States,33.057246064102344,-83.9219036679674,2026-06-19
+a0M6g00000W35Hl,NSBE Atlanta Professionals Chapter,Professional Zone,Region 3,Professional Chapter,Chapter,Atlanta,Georgia,United States,33.27403998765199,-83.95670069347443,2026-06-19
+a0M6g00000W35I5,CSRA Augusta Jr. Chapter - A LINKS NSBE Jr. Chapter,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Augusta,Georgia,United States,33.338008308312645,-83.92369480089408,2026-06-19
+a0M6g00000W35TX,Chamblee High School NSBE Jr Chapter,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,CHAMBLEE,Georgia,United States,33.28112146611843,-83.36121679925067,2026-06-19
+a0M6g00000W35bE,JJSJF Gwinnett NSBE Jr.,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Snellville,Georgia,United States,33.37631847641062,-83.43165588380849,2026-06-19
+a0M6g00000W36QF,Carver Future Engineers - a Camellia Rose (GA) NSBE Jr. Chapter,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Atlanta,Georgia,United States,33.23625327853993,-83.54333570680312,2026-06-19
+a0M6g00000zD4VP,Georgia State Society of Black Engineers,,Region 3,Collegiate Chapter,Non-Member,Atlanta,Georgia,United States,33.23591644820469,-83.89888745411079,2026-06-19
+a0M6g00002M74n1,Emory University NSBE Chapter,,Region 3,Collegiate Chapter,Non-Member,Atlanta,Georgia,United States,33.065866625163345,-83.63311799086671,2026-06-19
+a0MUJ0000047Uzx,Georgia Tech Outreach K-20 Programs NSBE Jr Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Atlanta,Georgia,United States,33.29091950088579,-83.66911444408454,2026-06-19
+a0MUJ000005bIKr,NextGen Innovators of Cobb County NSBE Jr,,Region 3,NSBE Jr. Chapter,Non-Member,Forest Park,Georgia,United States,32.96018164727025,-83.54537971013403,2026-06-19
+a0MUJ000006jTgj,Wheeler High School NSBE Jr Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Marietta,Georgia,United States,32.87714332225059,-83.89523611233223,2026-06-19
+a0M6g00000BqR5g,University of Idaho,Northwest Zone,Region 6,Collegiate Chapter,Chapter,Moscow,Idaho,United States,44.22497309181662,-114.53700544198357,2026-06-19
+a0M6g00000BqR2Z,Illinois Institute of Technology Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Chicago,Illinois,United States,40.16225595837021,-89.0788787329194,2026-06-19
+a0M6g00000BqR2e,Northwestern University Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Evanston,Illinois,United States,40.25593171487837,-89.10689010491122,2026-06-19
+a0M6g00000BqR2i,Southern Illinois University Carbondale,Primary Zone,Region 4,Collegiate Chapter,Chapter,CARBONDALE,Illinois,United States,40.26508185580885,-88.85611665818084,2026-06-19
+a0M6g00000BqR2o,University of Illinois Urbana-Champaign Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,"Urbana,",Illinois,United States,40.2072705321999,-88.67193645129926,2026-06-19
+a0M6g00000BqR2p,University of Illinois-Chicago Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Chicago,Illinois,United States,40.64090061367673,-88.99949970018994,2026-06-19
+a0M6g00000BqR2x,Southern Illinois University Edwardsville,Primary Zone,Region 4,Collegiate Chapter,Chapter,Edwardsville,Illinois,United States,40.22930984350328,-88.961332647119,2026-06-19
+a0M6g00000BqR35,Bradley University,Primary Zone,Region 4,Collegiate Chapter,Chapter,PEORIA,Illinois,United States,40.59344934214154,-88.87932586160792,2026-06-19
+a0M6g00000BqR39,Northern Illinois University,Primary Zone,Region 4,Collegiate Chapter,Chapter,Dekalb,Illinois,United States,40.562531279562954,-88.96323140675398,2026-06-19
+a0M6g00000BqR5I,Western Illinois University Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Macomb,Illinois,United States,40.44249934048734,-89.13442807007227,2026-06-19
+a0M6g00000BqRPQ,Chicago State University Prep - NSBE Jr. Chapter,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,CHICAGO,Illinois,United States,40.51388221361721,-89.194453784812,2026-06-19
+a0M6g00000W35Lg,Chicago Professionals,Primary Zone,Region 4,Professional Chapter,Chapter,Chicago,Illinois,United States,40.48581569017295,-88.73363365217187,2026-06-19
+a0M6g00000W35NA,Rich Township High School STEM NSBE Jr. Chapter,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Olympia Fields,Illinois,United States,40.09192898611108,-88.90607118162066,2026-06-19
+a0M6g00000W35Xz,King College Prep High School,Primary Zone,Region 4,NSBE Jr. Chapter,Chapter,CHICAGO,Illinois,United States,40.06602402376095,-88.82813606021,2026-06-19
+a0M6g00000W35ed,Eastern Illinois University NSBE Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Charleston,Illinois,United States,40.05860225317647,-88.68097912410956,2026-06-19
+a0M6g00000W36OO,Mofu Primary South Africa Super Strikers/Windy City (IL) LINKS NSBE Jr. Chapter,,Region 5,NSBE Jr. Chapter,Non-Member,Chicago,Illinois,United States,40.095642551026465,-88.66492082786364,2026-06-19
+a0M6g00000W36Uv,City Colleges of Chicago NSBE Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Chicago,Illinois,United States,40.56007592325957,-88.92055959687355,2026-06-19
+a0M6g00000W36Zn,Young STEMers a Links-NSBE Jr. Chapter,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Evanston,Illinois,United States,40.54729387324068,-88.77955661271184,2026-06-19
+a0M6g00000W36b0,Mofu Primary South Africa Bright Futures/Windy City (IL) LINKS NSBE Jr. Chapter,PCI Zone,Region 5,NSBE Jr. Chapter,Chapter,Chicago,Illinois,United States,40.661675943972135,-89.15876865231257,2026-06-19
+a0MUJ00000242mr,Kenwood Academy NSBE Jr Chapter,,Region 4,NSBE Jr. Chapter,Non-Member,Chicago,Illinois,United States,40.41251012675082,-89.26960256170491,2026-06-19
+a0MUJ000003emQn,Chicago Military Academy - Bronzeville NSBE Jr Chapter,,Region 4,NSBE Jr. Chapter,Non-Member,Chicago,Illinois,United States,40.430772990016884,-89.21623308713505,2026-06-19
+a0MUJ000006Hmw1,Holy Family School NSBE Jr. Chapter,,Region 4,NSBE Jr. Chapter,Non-Member,Chicago,Illinois,United States,40.39492242803071,-88.93543564017631,2026-06-19
+a0MUJ00000A5x9l,Englewood STEM High School NSBE Jr Chapter,,Region 4,NSBE Jr. Chapter,Non-Member,Chicago,Illinois,United States,40.32564660708686,-88.97029475714082,2026-06-19
+a0MUJ00000BEd6P,NSBE at Illinois State University,,Region 4,Collegiate Chapter,Non-Member,Normal,Illinois,United States,40.534203373004615,-88.77666569844155,2026-06-19
+a0M6g00000BqQzT,Valparaiso University NSBE Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Valparaiso,Indiana,United States,39.8439332509028,-86.18856259093418,2026-06-19
+a0M6g00000BqR2a,Indiana University- Bloomington,Primary Zone,Region 4,Collegiate Chapter,Chapter,Bloomington,Indiana,United States,40.151291364983074,-86.52446448804922,2026-06-19
+a0M6g00000BqR2g,Purdue University,Primary Zone,Region 4,Collegiate Chapter,Chapter,W. LAFAYETTE,Indiana,United States,39.58139849613008,-86.54688169166246,2026-06-19
+a0M6g00000BqR2h,Purdue University - Northwest,Primary Zone,Region 4,Collegiate Chapter,Chapter,Hammond,Indiana,United States,39.959930299528374,-86.31525218944674,2026-06-19
+a0M6g00000BqR2s,University of Notre Dame NSBE,Primary Zone,Region 4,Collegiate Chapter,Chapter,Notre Dame,Indiana,United States,40.04145099129929,-86.13841601068398,2026-06-19
+a0M6g00000BqR30,Purdue University in Indianapolis Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Indianapolis,Indiana,United States,39.73297243082977,-85.97942141684693,2026-06-19
+a0M6g00000BqR3L,Indiana Institute of Technology,Primary Zone,Region 4,Collegiate Chapter,Chapter,Fort Wayne,Indiana,United States,40.03319850294946,-86.41890354136288,2026-06-19
+a0M6g00000W36Nm,Rose-Hulman Institute of Technology Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Terre Haute,Indiana,United States,39.75436041244044,-86.38817001385702,2026-06-19
+a0M6g00000W36Wz,Northern Indiana Future Engineers - a NI Links NSBE Jr. Chapter,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Gary,Indiana,United States,39.6097541540375,-86.50482963922047,2026-06-19
+a0MUJ000002VhkH,WC Warriors NSBE Jr Chapter,,Region 4,NSBE Jr. Chapter,Non-Member,Indianapolis,Indiana,United States,40.154715224363024,-86.30174517396088,2026-06-19
+a0MUJ000002aCnt,Jefferson High School Lafayette NSBE Jr Chapter,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Lafayette,Indiana,United States,39.76774987594419,-86.09749800392584,2026-06-19
+a0MUJ000007xY4r,Purdue University Fort Wayne NSBE Chapter,,Region 4,Collegiate Chapter,Non-Member,Fort Wayne,Indiana,United States,39.88652114567703,-85.95298000921308,2026-06-19
+a0MUJ00000A6X0L,University of Indianapolis NSBE,,Region 4,Collegiate Chapter,Non-Member,Indianapolis,Indiana,United States,40.04563704573658,-86.27271930511283,2026-06-19
+a0M6g00000BqR3T,Iowa State University Chapter,MO Zone,Region 5,Collegiate Chapter,Chapter,Ames,Iowa,United States,41.92499063143658,-92.86988391855297,2026-06-19
+a0M6g00000BqR3o,University of Iowa Chapter,MO Zone,Region 5,Collegiate Chapter,Chapter,Iowa City,Iowa,United States,42.16397116520255,-92.89468973799731,2026-06-19
+a0M6g00000zC6Mb,Central Iowa Professionals Chapter,,Region 5,Professional Chapter,Non-Member,Johnston,Iowa,United States,41.74447400405193,-92.96515242456645,2026-06-19
+a0M6g00000BqR3g,The University of Kansas Chapter,MO Zone,Region 5,Collegiate Chapter,Chapter,Lawrence,Kansas,United States,38.62255171879385,-96.99114082516542,2026-06-19
+a0M6g00000BqR3m,Kansas State University,OK Zone,Region 5,Collegiate Chapter,Chapter,Manhattan,Kansas,United States,38.58838059997846,-96.59621854442618,2026-06-19
+a0M6g00000BqR4D,Wichita State University NSBE Chapter,OK Zone,Region 5,Collegiate Chapter,Chapter,Wichita,Kansas,United States,38.185211880122026,-96.75846342671078,2026-06-19
+a0M6g00000W35MC,Kansas City Professional Chapter,MO Zone,Region 5,Professional Chapter,Chapter,Kansas City,Kansas,United States,38.754379657837426,-96.86973468225914,2026-06-19
+a0M6g00000BqR1x,University of Kentucky - Lexington Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Lexington,Kentucky,United States,37.639123657258985,-84.71044711105247,2026-06-19
+a0M6g00000BqR1y,University of Louisville,Primary Zone,Region 3,Collegiate Chapter,Chapter,Louisville,Kentucky,United States,37.52948917400975,-84.37715767313911,2026-06-19
+a0M6g00000W35e6,Northern Kentucky University NSBE Chapter,International Zone,Region 3,Collegiate Chapter,Chapter,Highland Heights,Kentucky,United States,37.86504582480206,-84.94265511230273,2026-06-19
+a0M6g00000BqR3V,Louisiana State University,Cajun Zone,Region 5,Collegiate Chapter,Chapter,Baton Rouge,Louisiana,United States,31.517470260486302,-91.60236498298458,2026-06-19
+a0M6g00000BqR3W,Louisiana Tech University,Cajun Zone,Region 5,Collegiate Chapter,Chapter,Ruston,Louisiana,United States,31.01828190650483,-91.63197739423735,2026-06-19
+a0M6g00000BqR3Z,Southern University and A&M College of Baton Rouge NSBE Chapter,Cajun Zone,Region 5,Collegiate Chapter,Chapter,Baton Rouge,Louisiana,United States,30.89403967230997,-91.51843168866803,2026-06-19
+a0M6g00000BqR3j,The University of New Orleans NSBE Chapter,,Region 3,Collegiate Chapter,Non-Member,New Orleans,Louisiana,United States,31.285525315274576,-91.76271748910885,2026-06-19
+a0M6g00000BqR3n,Xavier University Of Louisiana,Cajun Zone,Region 5,Collegiate Chapter,Chapter,New Orleans,Louisiana,United States,30.882854508888894,-91.58988162077236,2026-06-19
+a0M6g00000BqR3r,University of Louisiana at Lafayette,Cajun Zone,Region 5,Collegiate Chapter,Chapter,Lafayette,Louisiana,United States,30.839845652243127,-92.0492253593712,2026-06-19
+a0M6g00000BqR42,Grambling State University,Cajun Zone,Region 5,Collegiate Chapter,Chapter,Grambling,Louisiana,United States,30.919661312616643,-91.67406744151545,2026-06-19
+a0M6g00000BqR4C,McNeese State University,Cajun Zone,Region 5,Collegiate Chapter,Chapter,Lake Charles,Louisiana,United States,30.958288959049028,-91.58035824100838,2026-06-19
+a0M6g00000W35M4,New Orleans Professionals,Cajun Zone,Region 5,Professional Chapter,Chapter,Metairie,Louisiana,United States,31.278934327529242,-92.19249110265372,2026-06-19
+a0M6g00000W36Uw,St. Augustine High School Pontchartrain Links-NSBE Jr.,PCI Zone,Region 5,NSBE Jr. Chapter,Chapter,New Orleans,Louisiana,United States,30.82334688389009,-92.18164445808992,2026-06-19
+a0MUJ000002CazR,Louisiana State University - Shreveport Chapter,,Region 5,Collegiate Chapter,Non-Member,Shreveport,Louisiana,United States,31.24369362435341,-91.65676773239841,2026-06-19
+a0MUJ000006HOLp,Northside Evolution NSBE Jr.,,Region 5,NSBE Jr. Chapter,Non-Member,Lafayette,Louisiana,United States,30.98653297443917,-91.62321880995385,2026-06-19
+a0MUJ00000BMs3S,SPEMA NSBE Jr. Scholars,,Region 5,NSBE Jr. Chapter,Non-Member,Baton Rouge,Louisiana,United States,30.859608358107284,-91.65713030245082,2026-06-19
+a0M6g00000BqR0j,National Society of Black Engineers at Johns Hopkins,Terror Zone,Region 2,Collegiate Chapter,Chapter,Baltimore,Maryland,United States,39.3634028011206,-76.61162512062693,2026-06-19
+a0M6g00000BqR0r,University of Maryland - Baltimore County,Terror Zone,Region 2,Collegiate Chapter,Chapter,Baltimore,Maryland,United States,39.202630548785045,-76.56551484694123,2026-06-19
+a0M6g00000BqR10,University of Maryland - College Park,Terror Zone,Region 2,Collegiate Chapter,Chapter,College Park,Maryland,United States,38.74205190968295,-77.01085352249666,2026-06-19
+a0M6g00000BqR12,Morgan State University - Brink of Something Special (B.O.S.S.) Chapter,Terror Zone,Region 2,Collegiate Chapter,Chapter,Baltimore,Maryland,United States,38.80139257551395,-76.7989293068649,2026-06-19
+a0M6g00000BqR1L,United States Naval Academy,Terror Zone,Region 2,Collegiate Chapter,Chapter,Annapolis,Maryland,United States,39.235577689830194,-76.71109270879651,2026-06-19
+a0M6g00000BqR1U,Towson University,Terror Zone,Region 2,Collegiate Chapter,Chapter,Towson,Maryland,United States,39.309737769833355,-77.04345190529123,2026-06-19
+a0M6g00000W35HG,Baltimore Metropolitan Area Chapter (BMAC),Terror Zone,Region 2,Professional Chapter,Chapter,Ellicott City,Maryland,United States,39.22818076435461,-77.01697195639176,2026-06-19
+a0M6g00000W35Mc,C.A.S.H. (Creative And Striving Hard) Nsbe Jr.,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Prince Frederick,Maryland,United States,38.903477125922464,-76.65516771190308,2026-06-19
+a0M6g00000W35Mj,DeMatha NSBE Jr. Chapter,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Hyattsville,Maryland,United States,39.40008934942908,-76.72402047581605,2026-06-19
+a0M6g00000W35S7,Patriots Technology Training Center NSBE Jr. Chapter,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Seat  Pleasant,Maryland,United States,38.75209622049391,-76.72068472105072,2026-06-19
+a0M6g00000W35SO,"Prince George's County NSBE, Jr Chapter",Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Springdale,Maryland,United States,38.74359138610612,-76.53319900204322,2026-06-19
+a0M6g00000W35Ya,FIRE (Future Innovative Rising Engineers) NSBE JR,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Lanham,Maryland,United States,39.21065079957044,-77.03091150750424,2026-06-19
+a0M6g00000W35ZU,NGLA - Next Generation Leadership Academy NSBE Jr Chapter,Danger Zone,Region 2,NSBE Jr. Chapter,Chapter,Columbia,Maryland,United States,38.77815070407694,-77.02362773978378,2026-06-19
+a0M6g00000W35Zo,Takoma Academy NSBE Jr.,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Takoma Park,Maryland,United States,39.39996502568793,-76.83110855027905,2026-06-19
+a0M6g00000W36OD,Wheaton Knights NSBE Jr,Danger Zone,Region 2,NSBE Jr. Chapter,Chapter,Silver Spring,Maryland,United States,39.26280266383899,-76.70661516052455,2026-06-19
+a0MUJ000004DlJl,Lakeland Lions NSBE Jr. Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Baltimore,Maryland,United States,39.114635204971044,-77.05050982173447,2026-06-19
+a0MUJ000004spcj,YEES WE CAN Links-NSBE Jr Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Delmar,Maryland,United States,39.37616311749067,-76.94116115723969,2026-06-19
+a0MUJ000006Fkof,Manhood 101/SAFE NSBE Jr.,,Region 2,NSBE Jr. Chapter,Non-Member,Suitland-Silver Hill,Maryland,United States,39.11855805106528,-76.66225783878765,2026-06-19
+a0MUJ000006FqCX,Loyola University Maryland,,Region 2,Collegiate Chapter,Non-Member,Baltimore,Maryland,United States,39.16840920867172,-76.49368491321313,2026-06-19
+a0MUJ000007lxF7,The Lady Innovators STEMGOLF LINKS-NSBE Jr. Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Lanham,Maryland,United States,38.817853292944044,-76.79625408308713,2026-06-19
+a0M6g00000BqQzg,Boston University NSBE Chapter,New England Zone,Region 1,Collegiate Chapter,Chapter,Boston,Massachusetts,United States,42.16299507351854,-71.54818788936217,2026-06-19
+a0M6g00000BqQzn,Massachusetts Institute of Technology Chapter,New England Zone,Region 1,Collegiate Chapter,Chapter,CAMBRIDGE,Massachusetts,United States,41.96362326833842,-71.78623977308906,2026-06-19
+a0M6g00000BqQzp,Northeastern University Black Engineering Student Society Chapter,New England Zone,Region 1,Collegiate Chapter,Chapter,Boston,Massachusetts,United States,42.07482388204688,-71.66681277736743,2026-06-19
+a0M6g00000BqQzz,University of Massachusetts Lowell,New England Zone,Region 1,Collegiate Chapter,Chapter,Lowell,Massachusetts,United States,42.179703249576946,-71.45241471707436,2026-06-19
+a0M6g00000BqR0C,Wentworth Institute of Technology,New England Zone,Region 1,Collegiate Chapter,Chapter,BOSTON,Massachusetts,United States,42.324411382192785,-71.5918383723901,2026-06-19
+a0M6g00000BqR0D,Tufts University NSBE,,Region 1,Collegiate Chapter,Non-Member,MEDFORD,Massachusetts,United States,42.16631917660008,-71.72776603131213,2026-06-19
+a0M6g00000BqR0H,Worcester Polytechnic Institute,,Region 1,Collegiate Chapter,Institution,Worcester,Massachusetts,United States,42.291985373886305,-71.65817736207794,2026-06-19
+a0M6g00000BqR0Y,Franklin W. Olin College of Engineering Chapter,New England Zone,Region 1,Collegiate Chapter,Chapter,Needham,Massachusetts,United States,41.90541288399415,-71.5872259690902,2026-06-19
+a0M6g00000BqR1A,University of Massachusetts Dartmouth Chapter,New England Zone,Region 1,Collegiate Chapter,Chapter,North Dartmouth,Massachusetts,United States,42.21206387256312,-71.72219099225705,2026-06-19
+a0M6g00000BqR5V,NSBE Boston Professionals,New England Zone,Region 1,Professional Chapter,Chapter,Boston,Massachusetts,United States,42.28089155318548,-71.48406566969766,2026-06-19
+a0M6g00000BqRgx,Harvard Society of Black Scientists and Engineers,New England Zone,Region 1,Collegiate Chapter,Chapter,Cambridge,Massachusetts,United States,42.37157252677726,-71.42654206245916,2026-06-19
+a0M6g00000W35ZY,University of Massachusetts Amherst,New England Zone,Region 1,Collegiate Chapter,Chapter,Amherst,Massachusetts,United States,42.33687413956472,-71.65875609372317,2026-06-19
+a0M6g00000W36YV,Merrimack College NSBE Chapter,New England Zone,Region 1,Collegiate Chapter,Chapter,North Andover,Massachusetts,United States,42.43137355539017,-71.49570493148023,2026-06-19
+a0M6g00000W36bF,NSBE Jr. South Shore,New England Zone,Region 1,NSBE Jr. Chapter,Chapter,Milton,Massachusetts,United States,42.182163736625924,-71.44189726334126,2026-06-19
+a0M6g00001daU7C,University of Massachusetts- Boston National Society of Black Engineers,,Region 1,Collegiate Chapter,Non-Member,Boston,Massachusetts,United States,42.13263113411518,-71.52118852877527,2026-06-19
+a0MUJ000000rMDh,Massachusetts Bay Community College Chapter,,Region 1,Collegiate Chapter,Non-Member,Wellesley Hills,Massachusetts,United States,42.39586498193755,-71.25962397929341,2026-06-19
+a0MUJ000002bAgn,Advanced Math and Science Academy NSBE Jr. Chapter,,Region 1,NSBE Jr. Chapter,Non-Member,Charlton,Massachusetts,United States,42.52491103810663,-71.52756295237184,2026-06-19
+a0MUJ000006WzjF,Community Charter School of Cambridge NSBE Jr.,,Region 1,NSBE Jr. Chapter,Non-Member,Cambridge,Massachusetts,United States,42.2443635803184,-71.32019671246532,2026-06-19
+a0MUJ000006nK3l,Boston Area NSBE Jr Chapter,,Region 1,NSBE Jr. Chapter,Non-Member,Boston,Massachusetts,United States,42.10028648422094,-71.29393834635846,2026-06-19
+a0MUJ000008of3N,NSBE Central Massachusetts Professionals,,Region 1,Professional Chapter,Non-Member,Northborough,Massachusetts,United States,42.226070152562194,-71.79900629296532,2026-06-19
+a0M6g00000BqR2c,Michigan State University,Primary Zone,Region 4,Collegiate Chapter,Chapter,East Lansing,Michigan,United States,43.02705940295107,-84.29669975227237,2026-06-19
+a0M6g00000BqR2q,University of Michigan - Ann Arbor,Primary Zone,Region 4,Collegiate Chapter,Chapter,Ann Arbor,Michigan,United States,43.015515541834816,-84.68966699470644,2026-06-19
+a0M6g00000BqR2r,University of Michigan-Dearborn,Primary Zone,Region 4,Collegiate Chapter,Chapter,DEARBORN,Michigan,United States,43.21050902835108,-84.76499888836588,2026-06-19
+a0M6g00000BqR2v,Wayne State University,Primary Zone,Region 4,Collegiate Chapter,Chapter,Detroit,Michigan,United States,43.1963433588614,-84.36621020329244,2026-06-19
+a0M6g00000BqR37,Grand Valley State University,Primary Zone,Region 4,Collegiate Chapter,Chapter,Grand Rapids,Michigan,United States,42.98689599049205,-84.30707360283552,2026-06-19
+a0M6g00000BqR3A,Kettering University B-Section,Primary Zone,Region 4,Collegiate Chapter,Chapter,Flint,Michigan,United States,43.576201616502196,-84.62551189876592,2026-06-19
+a0M6g00000BqR3I,Eastern Michigan University,Primary Zone,Region 4,Collegiate Chapter,Chapter,Ypsilanti,Michigan,United States,43.084147029342446,-84.46550671443845,2026-06-19
+a0M6g00000W35E5,Oakland County (MI) Links St. Mary's Jamaica NSBE Jr. Chapter,PCI Zone,Region 3,NSBE Jr. Chapter,Non-Member,St. James WI,Michigan,United States,43.06038878910543,-84.63065144724523,2026-06-19
+a0M6g00000W35Lh,Detroit Professionals NSBE Chapter,Primary Zone,Region 4,Professional Chapter,Chapter,Detroit,Michigan,United States,43.64751842663068,-84.18926986919146,2026-06-19
+a0M6g00000W35Y7,Ypsilanti High School NSBE Jr.,Primary Zone,Region 4,NSBE Jr. Chapter,Chapter,Ypsilanti,Michigan,United States,43.517091423948216,-84.66842194305546,2026-06-19
+a0M6g00000W36Nc,Michigan Technological University NSBE Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Houghton,Michigan,United States,43.45798353441627,-84.39231054416119,2026-06-19
+a0M6g00000W36Nr,Central Michigan University NSBE,Primary Zone,Region 4,Collegiate Chapter,Chapter,Mount Pleasant,Michigan,United States,43.24810718661456,-84.43747295578969,2026-06-19
+a0M6g00000W36Oa,Western Michigan University,Primary Zone,Region 4,Collegiate Chapter,Chapter,Kalamazoo,Michigan,United States,42.984127351482975,-84.73975463897844,2026-06-19
+a0M6g00000zEiqk,Calvin University NSBE Chapter,,Region 4,Collegiate Chapter,Non-Member,Grand Rapids,Michigan,United States,43.34417981207709,-84.7714690870192,2026-06-19
+a0M6g00002M9j0R,Lawrence Technological University (LTU) NSBE Chapter,,Region 4,Collegiate Chapter,Non-Member,Southfield,Michigan,United States,43.09275280751358,-84.30068199661484,2026-06-19
+a0M6g00002cVe1z,Michigan Department of Transportation - Professionals Chapter,,Region 4,Professional Chapter,Non-Member,Lansing,Michigan,United States,43.669011101878525,-84.49691640038009,2026-06-19
+a0MUJ000001zRSX,SouthWest Michigan Professional NSBE Chapter,,Region 4,Professional Chapter,Non-Member,Saint Joseph,Michigan,United States,43.563966811617206,-84.19286983497162,2026-06-19
+a0MUJ000009Kelh,NSBE Junior Lawrence Tech University,,Region 4,NSBE Jr. Chapter,Non-Member,Southfield,Michigan,United States,43.07573512199814,-84.57232307072196,2026-06-19
+a0M6g00000BqR36,University of Minnesota - Twin Cities NSBE Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,MINNEAPOLIS,Minnesota,United States,45.61925490108934,-94.19415750144768,2026-06-19
+a0M6g00000BqR3K,"NSBE at Minnesota State University, Mankato Chapter",Primary Zone,Region 4,Collegiate Chapter,Chapter,Mankato,Minnesota,United States,45.87318512095632,-93.94654668087419,2026-06-19
+a0M6g00000BqR5K,Twin Cities Professional Chapter (NSBE TCPC),Primary Zone,Region 4,Professional Chapter,Chapter,Minneapolis,Minnesota,United States,45.672982853933284,-94.14472091833073,2026-06-19
+a0M6g00000W35EX,NSBE - Augsburg,Primary Zone,Region 4,Collegiate Chapter,Chapter,Minneapolis,Minnesota,United States,45.471102656561605,-93.61521946449065,2026-06-19
+a0M6g00000W36Pe,University of St. Thomas - Minnesota,O Zone,Region 4,Collegiate Chapter,Chapter,Saint Paul,Minnesota,United States,45.375708362282,-94.08719540053941,2026-06-19
+a0M6g00000aMHg8,NSBE JR Twin Cities,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Saint Paul,Minnesota,United States,45.54889553122017,-93.9070537203189,2026-06-19
+a0M6g00000oL9o9,St. Cloud State University,,Region 4,Collegiate Chapter,Non-Member,St. Cloud,Minnesota,United States,45.75496562111036,-93.90488901690453,2026-06-19
+a0MUJ000007qOJx,Bethany Lutheran College NSBE Chapter,,Region 4,Collegiate Chapter,Non-Member,Mankato,Minnesota,United States,45.40333473418982,-94.079624782161,2026-06-19
+a0M6g00000BqR1o,Mississippi State Chapter of NSBE,Primary Zone,Region 3,Collegiate Chapter,Chapter,Mississippi,Mississippi,United States,32.98215786933378,-89.58238390966508,2026-06-19
+a0M6g00000BqR1z,University of Mississippi,Primary Zone,Region 3,Collegiate Chapter,Chapter,Oxford,Mississippi,United States,32.84605033509399,-89.55955372125405,2026-06-19
+a0M6g00000BqR2A,University of Southern Mississippi,Primary Zone,Region 3,Collegiate Chapter,Chapter,Hattiesburg,Mississippi,United States,32.92567811332767,-89.98802006279499,2026-06-19
+a0M6g00000W35aA,Mississippi Valley State University Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Itta Bena,Mississippi,United States,32.648271869452834,-89.65102679531682,2026-06-19
+a0M6g00000hpzpZ,Oxford (MS) Links-NSBE Jr Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Oxford,Mississippi,United States,32.62856553830813,-89.43756078869897,2026-06-19
+a0MUJ000000dfmT,Entergy NSBE Professional Chapter,,Region 3,Professional Chapter,Non-Member,Jackson,Mississippi,United States,32.72944675601111,-89.49065668737843,2026-06-19
+a0MUJ000008lHDh,Mississippi Gulf Coast NSBE Jr. Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Gulfport,Mississippi,United States,32.98805686181682,-89.67534196196755,2026-06-19
+a0MUJ00000APRvK,Columbus High NSBE Jr. Chapter,,Region 3,NSBE Jr. Chapter,Non-Member,Columbus,Mississippi,United States,33.02833257070995,-89.61770924162411,2026-06-19
+a0M6g00000BqQzX,"Washington University in St. Louis, School of Engineering & Applied Science",MO Zone,Region 5,Collegiate Chapter,Chapter,St. Louis,Missouri,United States,38.701277009183606,-92.39995444308593,2026-06-19
+a0M6g00000BqR3h,University of Missouri,MO Zone,Region 5,Collegiate Chapter,Chapter,Columbia,Missouri,United States,38.45525687097204,-92.2663802712968,2026-06-19
+a0M6g00000BqR3i,Missouri University of Science and Technology,MO Zone,Region 5,Collegiate Chapter,Chapter,Rolla,Missouri,United States,38.17957080112725,-92.35938124530892,2026-06-19
+a0M6g00000BqR44,St. Louis Community College,MO Zone,Region 5,Collegiate Chapter,Chapter,ST. LOUIS,Missouri,United States,38.748221370786176,-92.19678543174469,2026-06-19
+a0M6g00000BqR4H,Saint Louis University Chapter,,Region 5,Collegiate Chapter,Non-Member,St.Louis,Missouri,United States,38.23033960770588,-92.40116905507328,2026-06-19
+a0M6g00000BqRRp,aSTEAM Village Kansas City NSBE Jr. Chapter,MO Zone,Region 5,NSBE Jr. Chapter,Chapter,Kansas City,Missouri,United States,38.24020710676389,-92.620991807741,2026-06-19
+a0M6g00000BqRhM,Jackson County (MO) Links NSBE Jr. Chapter- Elementary,MO Zone,Region 5,NSBE Jr. Chapter,Chapter,Kansas City,Missouri,United States,38.755307320952824,-92.3246228702202,2026-06-19
+a0M6g00000W35Ae,Washington University in St. Louis,MO Zone,Region 5,Collegiate Chapter,Chapter,St. Louis,Missouri,United States,38.32135955069455,-92.21943396590959,2026-06-19
+a0M6g00000W35Dy,Marian Middle School LINKS-NSBE Jr. Chapter,MO Zone,Region 5,NSBE Jr. Chapter,Chapter,St. Louis,Missouri,United States,38.11120511940511,-92.44375252537944,2026-06-19
+a0M6g00000W35M5,St. Louis Gateway Professionals Chapter,MO Zone,Region 5,Professional Chapter,Chapter,Hazelwood,Missouri,United States,38.59820842598923,-92.19472915885152,2026-06-19
+a0M6g00000W35UF,St. Louis Metro Gateway NSBE Jr,MO Zone,Region 5,NSBE Jr. Chapter,Chapter,Ferguson,Missouri,United States,38.79334916327978,-92.20411760323937,2026-06-19
+a0M6g00000W36P4,University of Missouri - Kansas City Chapter,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Kansas City,Missouri,United States,38.440339111539416,-92.10536520577121,2026-06-19
+a0M6g00000aP9ZY,"Jackson County (MO) Links WeCode KC, NSBE Jr. Chapter",,Region 5,NSBE Jr. Chapter,Non-Member,Lee's Summit,Missouri,United States,38.73841451037484,-92.13388083729716,2026-06-19
+a0MUJ0000025Lyj,University Academy GryphonBots,,Region 5,NSBE Jr. Chapter,Non-Member,Kansas City,Missouri,United States,38.78033285648457,-92.09096438048329,2026-06-19
+a0MUJ000002VR2n,University of Central Missouri NSBE Chapter,,Region 5,Collegiate Chapter,Non-Member,Warrensburg,Missouri,United States,38.71284600678335,-92.55849515017145,2026-06-19
+a0MUJ000002VTJ7,Jackson County (MO) Links NSBE Jr. Chapter- Middle School,,Region 5,NSBE Jr. Chapter,Non-Member,Lee's Summit,Missouri,United States,38.61877445209565,-92.33030591033085,2026-06-19
+a0MUJ000002bCvV,Truman State University NSBE Chapter,,Region 5,Collegiate Chapter,Non-Member,Kirksville,Missouri,United States,38.49325766168789,-92.18049631336235,2026-06-19
+a0MUJ000006HBbV,Kaleidoscope Discovery Center NSBE Jr.,,Region 5,NSBE Jr. Chapter,Non-Member,Rolla,Missouri,United States,38.7849555816939,-91.94916334299786,2026-06-19
+a0M6g00000BqR3y,University of Nebraska-Lincoln,,Region 4,Collegiate Chapter,Non-Member,Lincoln,Nebraska,United States,40.97712977184153,-98.10445455179347,2026-06-19
+a0MUJ00000Be1Th,Omaha NSBE Jr.,,Region 5,NSBE Jr. Chapter,Non-Member,Omaha,Nebraska,United States,41.300358476554685,-98.37553699708087,2026-06-19
+a0M6g00002MAi3z,University of Nevada - Reno,,Region 6,Collegiate Chapter,Non-Member,Reno,Nevada,United States,38.050223842404954,-117.3767111278,2026-06-19
+a0M6g00000BqQzl,Dartmouth College Chapter,New England Zone,Region 1,Collegiate Chapter,Chapter,Hanover,New Hampshire,United States,43.64663218927043,-71.57110618072817,2026-06-19
+a0M6g00000BqR5j,University Of New Hampshire,,Region 1,Collegiate Chapter,Institution,Durham,New Hampshire,United States,43.792370118646446,-71.58841458066445,2026-06-19
+a0M6g00000BqQzQ,Rowan University National Society of Black Engineers,Primary Zone,Region 1,Collegiate Chapter,Chapter,Glassboro,New Jersey,United States,40.63344588535169,-74.58290779846416,2026-06-19
+a0M6g00000BqQzo,New Jersey Institute of Technology Chapter,New Jersey Zone,Region 1,Collegiate Chapter,Chapter,Newark,New Jersey,United States,40.50448150539198,-74.81163750938173,2026-06-19
+a0M6g00000BqQzq,Princeton University NSBE Chapter,New Jersey Zone,Region 1,Collegiate Chapter,Chapter,Princeton,New Jersey,United States,40.337727197096434,-74.30956914910999,2026-06-19
+a0M6g00000BqQzs,Rutgers State University - Minority Engineering Educational Task Chapter,New Jersey Zone,Region 1,Collegiate Chapter,Chapter,Piscataway,New Jersey,United States,40.59619516705392,-74.2952028365678,2026-06-19
+a0M6g00000BqQzu,Stevens Institute of Technology NSBE Chapter,New Jersey Zone,Region 1,Collegiate Chapter,Chapter,Hoboken,New Jersey,United States,39.97478350904082,-74.61011936108528,2026-06-19
+a0M6g00000BqR0B,The College of New Jersey,New Jersey Zone,Region 1,Collegiate Chapter,Chapter,Ewing,New Jersey,United States,39.982992930619695,-74.79451339621981,2026-06-19
+a0M6g00000BqR0a,Kean University,New Jersey Zone,Region 1,Collegiate Chapter,Chapter,Newark,New Jersey,United States,40.421617940067236,-74.3717302625818,2026-06-19
+a0M6g00000BqR5q,South Jersey Professionals,New Jersey Zone,Region 1,Professional Chapter,Chapter,Pleasantville,New Jersey,United States,40.49050847792614,-74.26519141636103,2026-06-19
+a0M6g00000BqRfP,North Jersey NSBE Professionals,New Jersey Zone,Region 1,Professional Chapter,Chapter,Union,New Jersey,United States,40.466506027933555,-74.31040088552535,2026-06-19
+a0M6g00000W35Rt,West Orange High School NSBE Jr Chapter,Primary Zone,Region 1,NSBE Jr. Chapter,Chapter,WEST ORANGE,New Jersey,United States,39.98317859687629,-74.7068363946911,2026-06-19
+a0M6g00000W36Oz,Rutgers University,New Jersey Zone,Region 1,Collegiate Chapter,Chapter,Piscataway,New Jersey,United States,40.38423244136267,-74.27032328676262,2026-06-19
+a0M6g00000W36Uy,Morris County Links/MHS NSBE Jr. Chapter,New Jersey Zone,Region 1,NSBE Jr. Chapter,Chapter,Morristown,New Jersey,United States,39.95205408745776,-74.51077046051856,2026-06-19
+a0M6g00000W36Wb,Dream Team NSBE Jr. Chapter - Central New Jersey (NJ) Links,New Jersey Zone,Region 1,NSBE Jr. Chapter,Chapter,New Brunswick,New Jersey,United States,40.423005179555076,-74.85028589760998,2026-06-19
+a0MUJ000006XF9h,BB Prep NSBE Jr.,,Region 1,NSBE Jr. Chapter,Non-Member,Westampton Township,New Jersey,United States,40.22985289028737,-74.24406658303141,2026-06-19
+a0MUJ00000CG7g9,Malcolm X Shabazz (MXS) NSBE Jr Chapter,,Region 1,NSBE Jr. Chapter,Non-Member,Newark,New Jersey,United States,40.419032966199104,-74.70465014564758,2026-06-19
+a0M6g00000BqR57,University of New Mexico NSBE Chapter,Southwest Zone,Region 6,Collegiate Chapter,Chapter,Albuquerque,New Mexico,United States,35.087461790742346,-106.35486000361334,2026-06-19
+a0M6g00000W35UG,Greater Albuquerque NSBE Jr,Southwest Zone,Region 6,NSBE Jr. Chapter,Chapter,ALBUQUERQUE,New Mexico,United States,35.087856269800845,-106.38922144421676,2026-06-19
+a0M6g00000zEHn2,Justice Code NSBE Jr.,,Region 6,NSBE Jr. Chapter,Non-Member,Albuquerque,New Mexico,United States,34.903739175618206,-106.32062395257651,2026-06-19
+a0M6g00000BqQze,New York University - Tandon School of Engineering Chapter,Metro/LI Zone,Region 1,Collegiate Chapter,Chapter,Brooklyn,New York,United States,42.00810353552855,-74.67746070647969,2026-06-19
+a0M6g00000BqQzi,City College Of New York,Metro/LI Zone,Region 1,Collegiate Chapter,Chapter,NEW YORK,New York,United States,41.947041577357645,-75.23868288613497,2026-06-19
+a0M6g00000BqQzj,Columbia University,Metro/LI Zone,Region 1,Collegiate Chapter,Chapter,New York,New York,United States,42.05507485698196,-74.79570359665091,2026-06-19
+a0M6g00000BqQzk,Cornell University Chapter,Upstate Zone,Region 1,Collegiate Chapter,Chapter,Ithaca,New York,United States,42.3809281241834,-74.59893064095327,2026-06-19
+a0M6g00000BqQzr,Rensselaer Polytechnic Institute,Upstate Zone,Region 1,Collegiate Chapter,Chapter,Troy,New York,United States,42.023179439907814,-75.0124916342081,2026-06-19
+a0M6g00000BqQzw,NSBE Syracuse University Chapter,Upstate Zone,Region 1,Collegiate Chapter,Chapter,SYRACUSE,New York,United States,41.91150089462074,-74.89564064926388,2026-06-19
+a0M6g00000BqR00,University of Rochester NSBE Chapter,Upstate Zone,Region 1,Collegiate Chapter,Chapter,Rochester,New York,United States,42.51403202608404,-74.80743429291554,2026-06-19
+a0M6g00000BqR01,Long Island University NSBE Brooklyn Chapter,Metro/LI Zone,Region 1,Collegiate Chapter,Chapter,Brooklyn,New York,United States,42.23237498828936,-75.02339263495475,2026-06-19
+a0M6g00000BqR04,Hofstra University,Metro/LI Zone,Region 1,Collegiate Chapter,Chapter,Hempstead,New York,United States,42.456435132199886,-74.95020938270876,2026-06-19
+a0M6g00000BqR05,"Binghamton University, State University of New York",Upstate Zone,Region 1,Collegiate Chapter,Chapter,Binghamton,New York,United States,41.90978283931914,-75.04228607576061,2026-06-19
+a0M6g00000BqR09,Union College NSBE Chapter,Upstate Zone,Region 1,Collegiate Chapter,Chapter,SCHENECTADY,New York,United States,41.862742668193434,-75.15666567361787,2026-06-19
+a0M6g00000BqR5p,Rochester NSBE Professionals,Upstate Zone,Region 1,Professional Chapter,Chapter,Rochester,New York,United States,41.82809414669994,-74.98075505844989,2026-06-19
+a0M6g00000BqRgb,The Greater Bronx Links NSBE Jr. - Bronx Fab Lab,New England Zone,Region 1,NSBE Jr. Chapter,Chapter,Bronx,New York,United States,42.259904185466254,-75.05774627633477,2026-06-19
+a0M6g00000BqRgr,SUNY at Albany Chapter,Upstate Zone,Region 1,Collegiate Chapter,Chapter,Albany,New York,United States,42.10999324005369,-74.6266045090088,2026-06-19
+a0M6g00000W35Af,University at Buffalo NSBE Chapter,Upstate Zone,Region 1,Collegiate Chapter,Chapter,BUFFALO,New York,United States,42.34210018510244,-74.91945135413854,2026-06-19
+a0M6g00000W35H1,New York City Professionals XL Chapter,Metro/LI Zone,Region 1,Professional Chapter,Chapter,Brooklyn,New York,United States,42.01490461257828,-74.67015324085891,2026-06-19
+a0M6g00000W35Nh,Brooklyn Technical High School NSBE Jr,Metro/LI Zone,Region 1,NSBE Jr. Chapter,Chapter,BROOKLYN,New York,United States,41.98029398181646,-75.07031108863833,2026-06-19
+a0M6g00000W36P9,Clarkson University,Upstate Zone,Region 1,Collegiate Chapter,Chapter,Potsdam,New York,United States,42.452071370096064,-74.92737156130046,2026-06-19
+a0M6g00000W36Q2,Rochester Institute of Technology Chapter,Upstate Zone,Region 1,Collegiate Chapter,Chapter,Rochester,New York,United States,42.335348564592586,-74.88452964408538,2026-06-19
+a0M6g00000W36Se,Westchester County (NY) Greenburgh Engineers Links NSBE Jr,PCI Zone,Region 1,NSBE Jr. Chapter,Chapter,White Plains,New York,United States,42.273133446306645,-75.08848269593963,2026-06-19
+a0M6g0000239bVb,Science Skills NSBE Jr.,,Region 1,NSBE Jr. Chapter,Non-Member,Brooklyn,New York,United States,41.98468644313866,-75.07230635698194,2026-06-19
+a0M6g00002M93vF,"Albany District (NY) LINKS, Inc",,Region 1,NSBE Jr. Chapter,Non-Member,Albany,New York,United States,41.92453509485839,-74.68603094429645,2026-06-19
+a0MUJ000000j42f,NSBE at Oswego Collegiate Chapter,,Region 1,Collegiate Chapter,Non-Member,Oswego,New York,United States,42.013998853275076,-74.90500842390993,2026-06-19
+a0MUJ000001rtKL,Skidmore College Chapter,,Region 2,Collegiate Chapter,Non-Member,Saratoga Springs,New York,United States,42.37010809759896,-74.74937412343701,2026-06-19
+a0MUJ00000202qH,University at Albany National Society of Black Engineers,,Region 1,Collegiate Chapter,Non-Member,Albany,New York,United States,42.12259638100893,-74.9646708839893,2026-06-19
+a0MUJ0000028xL7,Canisius University Chapter,,Region 1,Collegiate Chapter,Non-Member,Buffalo,New York,United States,42.512017224254514,-74.82583276611469,2026-06-19
+a0MUJ000002Ooyb,NSA Kappa League NSBE Jr. Chapter,,Region 1,Collegiate Chapter,Non-Member,Hicksville,New York,United States,42.38597291018252,-74.66626322154654,2026-06-19
+a0MUJ0000050bW9,NY Capital Region NSBE Professionals,,Region 1,Professional Chapter,Non-Member,Latham,New York,United States,42.367038885360536,-75.16842545853251,2026-06-19
+a0MUJ000006FnTB,Hamilton College Society for Black Engineers,,Region 1,Collegiate Chapter,Non-Member,Clinton,New York,United States,42.2092455136163,-75.22672508987982,2026-06-19
+a0MUJ000007NkxN,Bronx Collaborative High School NSBE Jr Chapter,,Region 1,NSBE Jr. Chapter,Non-Member,Bronx,New York,United States,42.2727714885948,-74.62930640026853,2026-06-19
+a0MUJ00000AOEor,Academy Charter School NSBE Jr Chapter,,Region 1,NSBE Jr. Chapter,Non-Member,Uniondale,New York,United States,42.174638445010075,-74.99497025499257,2026-06-19
+a0M6g00000BqR0e,Duke University,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Durham,North Carolina,United States,35.305155925992715,-79.48457683436955,2026-06-19
+a0M6g00000BqR0l,North Carolina A&T State University,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Greensboro,North Carolina,United States,35.35216787889111,-80.12766363468661,2026-06-19
+a0M6g00000BqR0m,North Carolina State NSBE Chapter,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Raleigh,North Carolina,United States,35.452312628053456,-80.11054769625714,2026-06-19
+a0M6g00000BqR0s,University of North Carolina at Charlotte,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Charlotte,North Carolina,United States,35.59864848968823,-79.79515753912003,2026-06-19
+a0M6g00000BqR1N,Johnson C. Smith University,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Charlotte,North Carolina,United States,35.498864964320006,-80.12074666219759,2026-06-19
+a0M6g00000BqR1R,University of North Carolina at Chapel Hill Chapter,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Chapel Hill,North Carolina,United States,35.358186257774456,-79.88726593540706,2026-06-19
+a0M6g00000BqR1T,North Carolina Central University Chapter,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Durham,North Carolina,United States,35.32243591557857,-79.66768619207306,2026-06-19
+a0M6g00000BqR1Y,Elizabeth City State University,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Elizabeth City,North Carolina,United States,35.42498037906737,-79.94496890185145,2026-06-19
+a0M6g00000BqRfq,Crown Jewels Links - Phillip O. Berry Academy of Technology NSBE JR.,Comfort Zone,Region 2,NSBE Jr. Chapter,Chapter,Charlotte,North Carolina,United States,35.555954044024666,-79.8647922568516,2026-06-19
+a0M6g00000BqRhw,"Wilmington (NC) LINKS- NSBE, Jr.",Comfort Zone,Region 2,NSBE Jr. Chapter,Chapter,Wilmington,North Carolina,United States,35.28122849537236,-80.07796974030092,2026-06-19
+a0M6g00000W35HH,Research Triangle Professionals,Comfort Zone,Region 2,Professional Chapter,Chapter,Durham,North Carolina,United States,35.88400119461861,-80.15555585624168,2026-06-19
+a0M6g00000W35HR,NSBE Charlotte Professionals Chapter,Comfort Zone,Region 2,Professional Chapter,Chapter,Matthews,North Carolina,United States,35.63578314906901,-79.81376759544496,2026-06-19
+a0M6g00000W35RV,Dudley High School NSBE JR,Comfort Zone,Region 2,NSBE Jr. Chapter,Chapter,Haw River,North Carolina,United States,35.51323191270745,-79.8544900858975,2026-06-19
+a0M6g00000W35Rj,North Carolina School of Science and Mathematics NSBE Jr,Comfort Zone,Region 2,NSBE Jr. Chapter,Chapter,DURHAM,North Carolina,United States,35.82647279626861,-79.56757640564953,2026-06-19
+a0M6g00000W35SV,Research Triangle Proteges Nsbe Jr,Comfort Zone,Region 2,NSBE Jr. Chapter,Chapter,Durham,North Carolina,United States,35.46230998039067,-79.93067569132259,2026-06-19
+a0M6g00000W36S3,Shaw University,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Raleigh,North Carolina,United States,35.44980399711983,-79.82051461961426,2026-06-19
+a0MUJ0000029tP7,University of North Carolina - Pembroke Chapter,,Region 2,Collegiate Chapter,Non-Member,Pembroke,North Carolina,United States,35.75834685036117,-79.99664198717561,2026-06-19
+a0MUJ000006ngPF,University of North Carolina-Greensboro,,Region 2,Collegiate Chapter,Non-Member,Greensboro,North Carolina,United States,35.5115810194384,-79.5051497676876,2026-06-19
+a0MUJ000007BJRV,Young Saviours Academy NSBE Jr.,,Region 2,NSBE Jr. Chapter,Non-Member,Denver,North Carolina,United States,35.31406450289287,-79.83388027633231,2026-06-19
+a0MUJ000009wDkT,High Point University,,Region 2,Collegiate Chapter,Non-Member,High Point,North Carolina,United States,35.778156629117746,-80.05110119190978,2026-06-19
+a0MUJ000009yx4r,Methodist University,,Region 2,Collegiate Chapter,Non-Member,Fayetteville,North Carolina,United States,35.31322781400384,-80.05967523985304,2026-06-19
+a0MUJ00000AqP7r,Greensboro Triad NSBE Professionals,,Region 2,Professional Chapter,Non-Member,Greensboro,North Carolina,United States,35.92324223547148,-80.14993715272522,2026-06-19
+a0M6g00000BqR5F,North Dakota State University Chapter NSBE Chapter,MO Zone,Region 5,Collegiate Chapter,Chapter,Fargo,North Dakota,United States,47.31073738236795,-100.11211354096885,2026-06-19
+a0M6g00000BqQzf,Youngstown State University,Primary Zone,Region 4,Collegiate Chapter,Chapter,Youngstown,Ohio,United States,40.116223627293536,-82.68081049936019,2026-06-19
+a0M6g00000BqR2f,The Ohio State University,Primary Zone,Region 4,Collegiate Chapter,Chapter,Columbus,Ohio,United States,40.207930236117356,-82.71646656469852,2026-06-19
+a0M6g00000BqR2j,University of Akron NSBE Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Akron,Ohio,United States,40.45191976793628,-82.52031026683716,2026-06-19
+a0M6g00000BqR2k,NSBE at University of Cincinnati Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Cincinnati,Ohio,United States,40.04210197503831,-82.51755637846034,2026-06-19
+a0M6g00000BqR2l,University of Dayton,Primary Zone,Region 4,Collegiate Chapter,Non-Member,Dayton,Ohio,United States,40.472166360498875,-83.00099455972654,2026-06-19
+a0M6g00000BqR2t,University Of Toledo,Primary Zone,Region 4,Collegiate Chapter,Chapter,TOLEDO,Ohio,United States,40.579839171694694,-82.51607092074659,2026-06-19
+a0M6g00000BqR2y,Case Western Reserve University,Primary Zone,Region 4,Collegiate Chapter,Chapter,Cleveland,Ohio,United States,40.216767438627905,-82.47175942336813,2026-06-19
+a0M6g00000BqR2z,Ohio University-Athens,Primary Zone,Region 4,Collegiate Chapter,Chapter,ATHENS,Ohio,United States,40.35690320120906,-82.69251788196668,2026-06-19
+a0M6g00000BqR33,Cleveland State University,Primary Zone,Region 4,Collegiate Chapter,Chapter,CLEVELAND,Ohio,United States,40.72803767353235,-82.86183974495256,2026-06-19
+a0M6g00000BqR3N,Miami University Chapter of NSBE - Oxford Campus,,Region 4,Collegiate Chapter,Company,Oxford,Ohio,United States,40.607994542074074,-82.89203561752008,2026-06-19
+a0M6g00000BqRQb,Northland High School NSBE Jr. Chapter,Primary Zone,Region 4,NSBE Jr. Chapter,Chapter,Columbus,Ohio,United States,40.59823246556904,-82.69440125679616,2026-06-19
+a0M6g00000BqRQw,Greater Cleveland NSBE Jr. Chapter,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Twinsburg,Ohio,United States,40.19023198665778,-82.82509673434754,2026-06-19
+a0M6g00000W35Lk,Northeast Ohio NSBE Professionals Chapter,Primary Zone,Region 4,Professional Chapter,Chapter,Mayfield Heights,Ohio,United States,40.261127944054486,-83.06023912484375,2026-06-19
+a0M6g00000W35Ll,"Dayton, OH Professionals Chapter",Primary Zone,Region 4,Professional Chapter,Chapter,Dayton,Ohio,United States,40.05966733906978,-82.87237994121497,2026-06-19
+a0M6g00000W35Lo,Cincinnati NSBE Professionals,Primary Zone,Region 4,Professional Chapter,Chapter,Cincinnati,Ohio,United States,40.052106903472236,-82.99907356969275,2026-06-19
+a0M6g00000W35a3,E-STEM NSBE Jr  Chapter,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Columbus,Ohio,United States,40.5464113245956,-82.61925113502149,2026-06-19
+a0M6g00002MAhUg,Sinclair Community College,,Region 4,Collegiate Chapter,Non-Member,Dayton,Ohio,United States,40.555789270520165,-82.89290778020901,2026-06-19
+a0MUJ000005OHBJ,Wooster Black & Code NSBE Chapter,,Region 4,Collegiate Chapter,Non-Member,Wooster,Ohio,United States,40.66179661998238,-82.69923361638008,2026-06-19
+a0MUJ00000712YQ,Ohio Wesleyan University NSBE Chapter,,Region 4,Collegiate Chapter,Non-Member,Delaware,Ohio,United States,40.12700143922264,-83.01431193698113,2026-06-19
+a0MUJ000009nbfZ,Kent State University NSBE,,Region 4,Collegiate Chapter,Non-Member,Kent,Ohio,United States,40.523949798850786,-82.99385424449055,2026-06-19
+a0M6g00000BqR3X,Oklahoma State University,OK Zone,Region 5,Collegiate Chapter,Chapter,Stillwater,Oklahoma,United States,35.57044689110743,-96.5846748668499,2026-06-19
+a0M6g00000BqR3k,University of Oklahoma NSBE Chapter,,Region 5,Collegiate Chapter,Institution,Norman,Oklahoma,United States,35.21814732331334,-97.26731113867172,2026-06-19
+a0M6g00000BqR4A,University Of Tulsa,OK Zone,Region 5,Collegiate Chapter,Chapter,Tulsa,Oklahoma,United States,35.91050120735136,-96.86966981610608,2026-06-19
+a0M6g00000W35M9,Oklahoma City Professionals,OK Zone,Region 5,Professional Chapter,Chapter,Oklahoma City,Oklahoma,United States,35.30417898286296,-96.65080546017214,2026-06-19
+a0M6g00000W36Ou,University Of Waterloo Chapter,Canada Zone,Region 1,Collegiate Chapter,Chapter,Waterloo,Ontario,Canada,51.52006621008938,-85.29785971082204,2026-06-19
+a0M6g00000W36Q7,McMaster University Chapter,Canada Zone,Region 1,Collegiate Chapter,Chapter,Hamilton,Ontario,Canada,51.33905442090253,-85.48196896594939,2026-06-19
+a0M6g00000W36Qb,University of Toronto Graduate Chapter,Canada Zone,Region 1,Collegiate Chapter,Chapter,TORONTO,Ontario,Canada,50.9391637874604,-85.2570026737764,2026-06-19
+a0M6g00000W36RP,Carleton University NSBE Chapter,Canada Zone,Region 1,Collegiate Chapter,Chapter,OTTAWA,Ontario,Canada,51.110128635241935,-85.20866526733775,2026-06-19
+a0MUJ000002VffF,NSBE at York University Chapter,,Region 1,Collegiate Chapter,Non-Member,Toronto,Ontario,Canada,51.48917162378982,-85.66048761925994,2026-06-19
+a0MUJ000004VA7F,Toronto Metropolitan University - NSBE,,Region 1,Collegiate Chapter,Non-Member,Toronto,Ontario,Canada,51.32079964228001,-85.5113036222192,2026-06-19
+a0M6g00000W35Y8,Portland Professionals Chapter (NSBE PRO - PDX),Northwest Zone,Region 6,Professional Chapter,Chapter,Portland,Oregon,United States,44.83374294853266,-122.24337284540672,2026-06-19
+a0M6g00000BqR0d,Drexel University,Danger Zone,Region 2,Collegiate Chapter,Chapter,Philadelphia,Pennsylvania,United States,40.66829109326479,-77.17227641193728,2026-06-19
+a0M6g00000BqR0k,Lafayette College Chapter of NSBE,Danger Zone,Region 2,Collegiate Chapter,Chapter,Easton,Pennsylvania,United States,40.51806855004148,-77.08542046548014,2026-06-19
+a0M6g00000BqR0o,Pennsylvania State University - University Park,End Zone,Region 2,Collegiate Chapter,Chapter,State College,Pennsylvania,United States,40.748790744300805,-77.16289854327643,2026-06-19
+a0M6g00000BqR0p,Temple University,Danger Zone,Region 2,Collegiate Chapter,Chapter,PHILADELPHIA,Pennsylvania,United States,40.77164756602933,-76.87136304680494,2026-06-19
+a0M6g00000BqR0u,University of Pittsburgh,,Region 2,Collegiate Chapter,Non-Member,Pittsburgh,Pennsylvania,United States,40.53424267153056,-77.19954686368013,2026-06-19
+a0M6g00000BqR1E,Villanova University,Danger Zone,Region 2,Collegiate Chapter,Chapter,Villanova,Pennsylvania,United States,40.24948091455885,-77.00253501058273,2026-06-19
+a0M6g00000BqR1K,Lincoln University - NSBE LU,Danger Zone,Region 2,Collegiate Chapter,Chapter,Lincoln University,Pennsylvania,United States,40.6049130469322,-77.27418199874761,2026-06-19
+a0M6g00000BqR1Q,Swarthmore College,Danger Zone,Region 2,Collegiate Chapter,Chapter,Swarthmore,Pennsylvania,United States,40.30660237416258,-76.93699550482722,2026-06-19
+a0M6g00000BqRiB,Penn State University - Harrisburg,Danger Zone,Region 2,Collegiate Chapter,Chapter,Middletown,Pennsylvania,United States,40.51725706802839,-77.08194788125354,2026-06-19
+a0M6g00000W35HE,Greater Philadelphia Professionals Chapter,Danger Zone,Region 2,Professional Chapter,Chapter,PHILADELPHIA,Pennsylvania,United States,40.34531390945771,-76.88667025932128,2026-06-19
+a0M6g00000W35HM,NSBE Pittsburgh Professionals,End Zone,Region 2,Professional Chapter,Chapter,Pittsburgh,Pennsylvania,United States,40.36566123327528,-77.42007560497036,2026-06-19
+a0M6g00000W35Mq,Harriton High School NSBE Jr.,Danger Zone,Region 2,NSBE Jr. Chapter,Chapter,Bryn Mawr,Pennsylvania,United States,40.842040002390405,-76.92094707910064,2026-06-19
+a0M6g00000W35ZW,Carnegie Mellon University,End Zone,Region 2,Collegiate Chapter,Chapter,Pittsburgh,Pennsylvania,United States,40.389255185266315,-77.23089437827763,2026-06-19
+a0M6g00000W36NN,Lehigh University Chapter,O Zone,Region 2,Collegiate Chapter,Chapter,Bethlehem,Pennsylvania,United States,40.754198433193984,-76.94489898633245,2026-06-19
+a0M6g00000W36O7,"YMWIC Foundation, Inc. NSBE Jr Chapter",Danger Zone,Region 2,NSBE Jr. Chapter,Chapter,West Chester,Pennsylvania,United States,40.506088886526115,-77.1978413592054,2026-06-19
+a0M6g00000W36OA,Bucknell University,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Lewisburg,Pennsylvania,United States,40.759953487363816,-77.04795981634304,2026-06-19
+a0MUJ000002pmiz,The Shippensburg University NSBE Chapter,,Region 2,Collegiate Chapter,Non-Member,Shippensburg,Pennsylvania,United States,40.78882409101826,-77.16080132695093,2026-06-19
+a0M6g00000W36QR,McGill University,Canada Zone,Region 1,Collegiate Chapter,Chapter,MONTREAL,Quebec,Canada,52.663130567763346,-73.26631869638537,2026-06-19
+a0M6g00000W36Qg,Concordia University,Canada Zone,Region 1,Collegiate Chapter,Chapter,Montréal,Quebec,Canada,53.195800777524724,-73.34043179492716,2026-06-19
+a0M6g00000BqR0G,University of Rhode Island,New England Zone,Region 1,Collegiate Chapter,Chapter,KINGSTON,Rhode Island,United States,41.40079673401251,-71.71870184304301,2026-06-19
+a0MUJ000002Qip3,University of Regina NSBE Chapter,,Region 6,Collegiate Chapter,Non-Member,Regina,Saskatchewan,Canada,53.110420255575356,-106.78470193379265,2026-06-19
+a0M6g00000BqR0f,Clemson University,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Clemson,South Carolina,United States,34.192349243595096,-81.03100572375102,2026-06-19
+a0M6g00000BqR0v,University of South Carolina NSBE Chapter,Comfort Zone,Region 2,Collegiate Chapter,Chapter,COLUMBIA,South Carolina,United States,34.01041077358358,-80.67370723805837,2026-06-19
+a0M6g00000BqR1S,Benedict College,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Columbia,South Carolina,United States,33.78313292170506,-81.07161425798024,2026-06-19
+a0M6g00000BqR1X,Claflin University Chapter,Comfort Zone,Region 2,Collegiate Chapter,Chapter,Orangeburg,South Carolina,United States,33.93301079022878,-80.88831443837637,2026-06-19
+a0M6g00000BqR1e,The Citadel Chapter,,Region 2,Collegiate Chapter,Non-Member,Charleston,South Carolina,United States,33.79328998433736,-80.87376467089261,2026-06-19
+a0M6g00000W35Ha,S.C. Midlands Professional Chapter,Comfort Zone,Region 2,Professional Chapter,Chapter,Columbia,South Carolina,United States,34.16165895869655,-80.9676588203614,2026-06-19
+a0MUJ000002Oker,College of Charleston NSBE Chapter,,Region 2,Collegiate Chapter,Non-Member,Charleston,South Carolina,United States,33.644611526525445,-81.03096281198191,2026-06-19
+a0MUJ000002VQWX,Dominion Youth Inc NSBE Jr Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,North Charleston,South Carolina,United States,33.782766887815185,-81.20323091488164,2026-06-19
+a0MUJ000008AGtJ,University of South Carolina Aiken,,Region 2,Collegiate Chapter,Non-Member,Aiken,South Carolina,United States,33.62090205038819,-80.81581354862443,2026-06-19
+a0MUJ00000BMmXV,Richland Northeast High School NSBE Jr. Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Columbia,South Carolina,United States,33.744526427946234,-80.62657812570095,2026-06-19
+a0M6g00000BqR4t,South Dakota School of Mines and Technology,OK Zone,Region 5,Collegiate Chapter,Chapter,Rapid City,South Dakota,United States,44.120299721751024,-99.71958084642662,2026-06-19
+a0MUJ000009KoI1,South Dakota State University,,Region 5,Collegiate Chapter,Non-Member,Brookings,South Dakota,United States,44.47723519410018,-99.17210276365749,2026-06-19
+a0M6g00000BqR1n,University of Memphis,Primary Zone,Region 3,Collegiate Chapter,Chapter,MEMPHIS,Tennessee,United States,35.59252434981004,-86.90088332884817,2026-06-19
+a0M6g00000BqR22,University of Tennessee-Knoxville,Primary Zone,Region 3,Collegiate Chapter,Chapter,Knoxville,Tennessee,United States,35.52788129440976,-86.67693638904345,2026-06-19
+a0M6g00000BqR28,University of Tennessee-Chattanooga,Primary Zone,Region 3,Collegiate Chapter,Chapter,CHATTANOOGA,Tennessee,United States,35.72573664887274,-86.86073711210183,2026-06-19
+a0M6g00000W35E9,"The Hendersonville Area (TN) Chapter of the Links Inc, A Links- NSBE Jr. Chapter",Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Nashville,Tennessee,United States,35.42946618189259,-86.7053010617716,2026-06-19
+a0M6g00000W35Hq,Memphis Professionals,Professional Zone,Region 3,Professional Chapter,Chapter,MEMPHIS,Tennessee,United States,36.06937764334492,-86.58558155947314,2026-06-19
+a0M6g00000W35I8,Music City Professionals,Professional Zone,Region 3,Professional Chapter,Chapter,Nashville,Tennessee,United States,35.74469958964003,-86.96486054817927,2026-06-19
+a0M6g00000W35IQ,Tennessee Tech Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,cookeville,Tennessee,United States,35.57455040338471,-86.83600323529782,2026-06-19
+a0M6g00000W35Rx,Memphis NSBE Jr. Academy Program,Primary Zone,Region 3,NSBE Jr. Chapter,Chapter,Memphis,Tennessee,United States,35.93320748682506,-86.42864744191478,2026-06-19
+a0M6g00000W36Xo,East Tennessee State University,Primary Zone,Region 3,Collegiate Chapter,Chapter,Johnson City,Tennessee,United States,36.0289942974965,-86.35314697422447,2026-06-19
+a0M6g00000W36Zi,MTSU (Middle Tennessee State University) NSBE Chapter,Primary Zone,Region 3,Collegiate Chapter,Chapter,Murfreesboro,Tennessee,United States,36.08550167817317,-86.37524560706241,2026-06-19
+a0MUJ000002WNUz,Lane College NSBE Chapter,,Region 3,Collegiate Chapter,Non-Member,Jackson,Tennessee,United States,35.44812049835202,-86.94588952485054,2026-06-19
+a0MUJ000009AJdh,NSBE SACS at Meharry Medical College,,Region 3,Collegiate Chapter,Non-Member,La Vergne,Tennessee,United States,35.61097156853322,-86.65531622215488,2026-06-19
+a0MUJ00000APRX7,Ife STEM Memphis NSBE Jr.,,Region 3,NSBE Jr. Chapter,Non-Member,Cordova,Tennessee,United States,35.46572952209383,-86.45028712953851,2026-06-19
+a0M6g00000BqR3U,Lamar University,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,BEAUMONT,Texas,United States,31.13621632535412,-97.53380591838847,2026-06-19
+a0M6g00000BqR3Y,Prairie View A&M University,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Prairie View,Texas,United States,30.820204926357107,-97.73618216791986,2026-06-19
+a0M6g00000BqR3b,Texas A&M University - College Station,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,COLLEGE STATION,Texas,United States,30.816705417487583,-97.31710778954364,2026-06-19
+a0M6g00000BqR3f,University of Houston Chapter,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Houston,Texas,United States,31.113446502042855,-97.39887040073626,2026-06-19
+a0M6g00000BqR3l,The University of Texas at Austin Chapter,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Austin,Texas,United States,30.91171000403702,-97.65358415403821,2026-06-19
+a0M6g00000BqR3p,University of Texas at Arlington,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Arlington,Texas,United States,30.987885475098576,-97.38145051977918,2026-06-19
+a0M6g00000BqR3t,Texas Tech University,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Lubbock,Texas,United States,31.2451340913722,-97.76869153074018,2026-06-19
+a0M6g00000BqR3v,Texas Southern University,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Houston,Texas,United States,31.36356419971667,-97.82900226378942,2026-06-19
+a0M6g00000BqR41,University of North Texas,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Denton,Texas,United States,31.331772457696545,-97.84318404804513,2026-06-19
+a0M6g00000BqR43,University of Texas at San Antonio,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,SAN ANTONIO,Texas,United States,30.88966486780592,-97.32092602475244,2026-06-19
+a0M6g00000BqR48,University of Texas at Dallas Chapter,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Richardson,Texas,United States,30.830131450642263,-97.62396344808303,2026-06-19
+a0M6g00000BqR4x,University of Texas at Tyler,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Tyler,Texas,United States,31.01938850996089,-97.74177971888376,2026-06-19
+a0M6g00000BqRfF,"Town Lake (Austin, TX) - a Links-NSBE, Jr. Chapter",Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Austin,Texas,United States,31.201658640935193,-97.31752674541846,2026-06-19
+a0M6g00000BqRfV,Pearland NSBE Jr,Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Pearland,Texas,United States,31.3166895978989,-97.67593549798441,2026-06-19
+a0M6g00000BqRhr,"S.T.E.A.M. Works: A Links-NSBE Jr Chapter, Fort Bend County (TX)",Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Sugar Land,Texas,United States,31.076082276001472,-97.73957651729405,2026-06-19
+a0M6g00000W35EN,"PRO Champions, a Let's Elevate, Inc. NSBE Jr. Chapter",Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Richardson,Texas,United States,30.875844551085102,-97.80058315600365,2026-06-19
+a0M6g00000W35M3,NSBE Houston Professionals,Big Tex Zone,Region 5,Professional Chapter,Chapter,Houston,Texas,United States,31.362500307565263,-97.2918688199761,2026-06-19
+a0M6g00000W35M7,NSBE Austin Professionals,Big Tex Zone,Region 5,Professional Chapter,Chapter,AUSTIN,Texas,United States,31.248638099329387,-97.5510979350986,2026-06-19
+a0M6g00000W35M8,Dallas/Ft. Worth Professionals,Big Tex Zone,Region 5,Professional Chapter,Chapter,DALLAS,Texas,United States,31.047912540858313,-97.54263903367226,2026-06-19
+a0M6g00000W35MH,NSBE Professionals of North Texas,Big Tex Zone,Region 5,Professional Chapter,Chapter,Fort Worth,Texas,United States,31.080084609503963,-97.60926684071163,2026-06-19
+a0M6g00000W35N8,"Five Girls R.O.C.K. @ YWCPA, a LINKS-NSBE Jr. Chapter",Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Houston,Texas,United States,30.79671538302445,-97.82549630299202,2026-06-19
+a0M6g00000W35ZX,Rice University Chapter,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Houston,Texas,United States,31.37106180109198,-97.57603946828957,2026-06-19
+a0M6g00000W35eG,San Antonio City Wide NSBE Jr. Chapter,Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,SanAntonio,Texas,United States,31.371730867433634,-97.79895718560293,2026-06-19
+a0M6g00000W36S9,Texas Christian University,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Fort Worth,Texas,United States,31.092578586427955,-97.76805892265392,2026-06-19
+a0M6g00000W36Su,St. Mary's Engineering Pride NSBE Jr. Chapter,Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Houston,Texas,United States,30.881716224288624,-97.89242279486717,2026-06-19
+a0M6g00000W36VK,Fort Worth (TX) Links- NSBE Jr STEAM Middle School Leaders in Training Chapter,Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Fort Worth,Texas,United States,30.78775431751815,-97.27166711465956,2026-06-19
+a0M6g00000W36VU,Katy-Richmond Area Jade Links NSBE Jr. Chapter,Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Richmond,Texas,United States,30.929560094037633,-97.48777055165979,2026-06-19
+a0M6g00000W36WU,Sam Houston State University Chapter,Big Tex Zone,Region 5,Collegiate Chapter,Chapter,Huntsville,Texas,United States,31.029996892392493,-97.63314512832831,2026-06-19
+a0M6g00000W36X9,Fort Worth (TX) Links - NSBE Jr STEAM Elementary Chapter,Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Fort Worth,Texas,United States,31.07680726394225,-97.78239373876926,2026-06-19
+a0M6g00000W36bQ,Fort Worth (TX) Links - NSBE Jr STEAM High School Leaders Chapter,Big Tex Zone,Region 5,NSBE Jr. Chapter,Chapter,Fort Worth,Texas,United States,31.396509728963704,-97.3406454919073,2026-06-19
+a0M6g00002WKYbx,Christa McAuliffe Explorers,,Region 5,NSBE Jr. Chapter,Non-Member,Houston,Texas,United States,31.223617242912063,-97.58532949209024,2026-06-19
+a0MUJ0000011kjP,Crowley ISD Chapter,,Region 5,NSBE Jr. Chapter,Non-Member,Fort Worth,Texas,United States,30.811500985488436,-97.26899489920851,2026-06-19
+a0MUJ000001uyH3,Bryan-College Station NSBE Jr. Chapter,,Region 5,NSBE Jr. Chapter,Non-Member,College Station,Texas,United States,30.94345794716721,-97.87838631721215,2026-06-19
+a0MUJ0000029mgz,TLA Highflyers Port City TX Links NSBE Jr Chapter,,Region 5,NSBE Jr. Chapter,Non-Member,Houston,Texas,United States,30.944169573767443,-97.35734107865288,2026-06-19
+a0MUJ000002bCXJ,University of Texas Permian Basin - UTPB NSBE Chapter,,Region 5,Collegiate Chapter,Non-Member,Odessa,Texas,United States,31.140383121491748,-97.3878739906786,2026-06-19
+a0MUJ000002sBWn,Katy Richmond Area (TX) Links Inc NSBE Jr Chapter,,Region 5,NSBE Jr. Chapter,Non-Member,Richmond,Texas,United States,31.260031768703666,-97.76509277224362,2026-06-19
+a0MUJ000003q3hd,TECHINEERS - NSBE Jr Chapter,,Region 5,NSBE Jr. Chapter,Non-Member,Houston,Texas,United States,31.35113532126523,-97.60686827795574,2026-06-19
+a0MUJ000005BiHN,The Houston Christian University Chapter of NSBE,,Region 5,Collegiate Chapter,Non-Member,Houston,Texas,United States,31.151796554484918,-97.91184485918929,2026-06-19
+a0MUJ0000072nTe,STEAMvention West Houston NSBE Jr. Chapter,,Region 5,NSBE Jr. Chapter,Non-Member,Houston,Texas,United States,31.399844948887825,-97.7168335298251,2026-06-19
+a0MUJ000007C1cD,Rising Engineers North Texas - NSBE Jr.,,Region 5,NSBE Jr. Chapter,Non-Member,Midlothian,Texas,United States,30.74793117457811,-97.59267757092445,2026-06-19
+a0MUJ000009oHYL,Tarleton State University,,Region 5,Collegiate Chapter,Non-Member,Stephenville,Texas,United States,30.79480804002743,-97.8068323028897,2026-06-19
+a0MUJ00000AcUIf,Missouri City NSBE Jr Explorers,,Region 5,NSBE Jr. Chapter,Non-Member,Houston,Texas,United States,31.14708496912115,-97.63841182590085,2026-06-19
+a0M6g00000BqR52,University of Utah,Rocky Mountain Zone,Region 6,Collegiate Chapter,Chapter,Salt Lake City,Utah,United States,40.4453287151085,-111.98902445377435,2026-06-19
+a0M6g00000BqQzS,University of Vermont,New England Zone,Region 1,Collegiate Chapter,Chapter,Burlington,Vermont,United States,44.20420208986873,-72.73791639889156,2026-06-19
+a0MUJ000006Ffx3,Norwich University,,Region 1,Collegiate Chapter,Non-Member,Northfield,Vermont,United States,44.157841910790495,-72.6408992502988,2026-06-19
+a0M6g00000BqQzP,Hampton University,O Zone,Region 2,Collegiate Chapter,Chapter,Hampton,Virginia,United States,37.7502857809313,-77.85492523376288,2026-06-19
+a0M6g00000BqR0i,George Mason University,Terror Zone,Region 2,Collegiate Chapter,Chapter,Fairfax,Virginia,United States,37.65923654992847,-78.3959031491255,2026-06-19
+a0M6g00000BqR0n,Old Dominion University,O Zone,Region 2,Collegiate Chapter,Chapter,Norfolk,Virginia,United States,37.89400284261588,-77.92776270708445,2026-06-19
+a0M6g00000BqR0w,University of Virginia,O Zone,Region 2,Collegiate Chapter,Chapter,Charlottesville,Virginia,United States,37.44751461795795,-78.20522511810412,2026-06-19
+a0M6g00000BqR0x,Virginia Tech,O Zone,Region 2,Collegiate Chapter,Chapter,Blacksburg,Virginia,United States,38.04407838278113,-77.99523496675398,2026-06-19
+a0M6g00000BqR15,At Large Collegiate (Region 1),At-Large,Region 1,Collegiate Chapter,Chapter,Alexandria,Virginia,United States,38.11360240154834,-78.14797833188193,2026-06-19
+a0M6g00000BqR1F,Norfolk State University NSBE,O Zone,Region 2,Collegiate Chapter,Chapter,Norfolk,Virginia,United States,37.88133400316081,-78.30823180320344,2026-06-19
+a0M6g00000BqR1J,Virginia State University Chapter,O Zone,Region 2,Collegiate Chapter,Chapter,PETERSBURG,Virginia,United States,38.082611919766194,-78.26353315801042,2026-06-19
+a0M6g00000BqR1P,Virginia Commonwealth University,O Zone,Region 2,Collegiate Chapter,Chapter,Richmond,Virginia,United States,37.93629449888064,-78.23776985711665,2026-06-19
+a0M6g00000BqR1f,At Large Collegiate (Region 2),At-Large,Region 2,Collegiate Chapter,Chapter,Alexandria,Virginia,United States,37.8126102510441,-78.01612022548491,2026-06-19
+a0M6g00000BqR5M,James Madison University NSBE,O Zone,Region 2,Collegiate Chapter,Chapter,Harrisonburg,Virginia,United States,37.77559090622595,-77.88500757116334,2026-06-19
+a0M6g00000BqRgA,Future Kings NSBE Jr.,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Dumfries,Virginia,United States,37.71284769154947,-78.06701774129967,2026-06-19
+a0M6g00000Fo5jL,At Large Collegiate (Region 3),Primary Zone,Region 3,Collegiate Chapter,Chapter,Alexandria,Virginia,United States,37.65899070331004,-78.23425833223828,2026-06-19
+a0M6g00000Fo5jM,At Large Collegiate (Region 4),Primary Zone,Region 4,Collegiate Chapter,Chapter,Alexandria,Virginia,United States,37.72737207576348,-78.4319030871814,2026-06-19
+a0M6g00000Fo5jN,At Large Collegiate (Region 5),At-Large,Region 5,Collegiate Chapter,Chapter,Alexandria,Virginia,United States,37.48354357534131,-78.05272505379726,2026-06-19
+a0M6g00000Fo5jO,At Large Collegiate (Region 6),At-Large,Region 6,Collegiate Chapter,Chapter,Alexandria,Virginia,United States,37.87819941684014,-78.05593120005292,2026-06-19
+a0M6g00000Fo5jP,At Large Professionals (Region 1),At-Large,Region 1,Professional Chapter,Chapter,Alexandria,Virginia,United States,37.43317351173989,-78.29138521012975,2026-06-19
+a0M6g00000Fo5jQ,At Large Professionals (Region 2),At-Large,Region 2,Professional Chapter,Chapter,Alexandria,Virginia,United States,37.55780389308144,-77.97526200421919,2026-06-19
+a0M6g00000Fo5jR,At Large Professionals (Region 3),Professional Zone,Region 3,Professional Chapter,Chapter,Alexandria,Virginia,United States,38.021778280977294,-78.3472917359417,2026-06-19
+a0M6g00000Fo5jS,At Large Professionals (Region 4),Primary Zone,Region 4,Professional Chapter,Chapter,Alexandria,Virginia,United States,37.88683141119359,-78.4294140375792,2026-06-19
+a0M6g00000Fo5jT,At Large Professionals (Region 5),At-Large,Region 5,Professional Chapter,Chapter,Alexandria,Virginia,United States,37.6119437679212,-78.42290985263661,2026-06-19
+a0M6g00000Fo5jU,At Large Professionals (Region 6),At-Large,Region 6,Professional Chapter,Chapter,Alexandria,Virginia,United States,37.61780153661946,-78.0476524168555,2026-06-19
+a0M6g00000W35HX,Northern Virginia NSBE Professionals,Terror Zone,Region 2,Professional Chapter,Chapter,Woodbridge,Virginia,United States,38.056565837129675,-78.37820231445306,2026-06-19
+a0M6g00000W35HZ,Patent and Trademark Office Professionals,Terror Zone,Region 2,Professional Chapter,Chapter,Alexandria,Virginia,United States,37.7987923244655,-78.0289942291296,2026-06-19
+a0M6g00000W35Hb,Nubian Village Academy NSBE Jr. Chapter,O Zone,Region 2,NSBE Jr. Chapter,Chapter,Richmond,Virginia,United States,38.0863827279399,-78.09292566197898,2026-06-19
+a0M6g00000W35RP,Martinsville & Henry County NSBE Jr. Chapter,O Zone,Region 2,NSBE Jr. Chapter,Chapter,Martinsville,Virginia,United States,37.59791185171917,-78.08213329016024,2026-06-19
+a0M6g00000W36OW,At Large Pci (Region 1),At-Large,Region 1,NSBE Jr. Chapter,Chapter,Alexandria,Virginia,United States,37.64368081317461,-77.8366781265158,2026-06-19
+a0M6g00000W36Ol,At Large Pci (Region 6),At-Large,Region 6,NSBE Jr. Chapter,Chapter,Alexandria,Virginia,United States,37.69911029461455,-78.04016859546729,2026-06-19
+a0M6g00000W36PU,At Large Pci (Region 4),PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Alexandria,Virginia,United States,37.43559630764273,-78.23992498770566,2026-06-19
+a0M6g00000W36Rp,At Large PCI (Region 2),Comfort Zone,Region 2,NSBE Jr. Chapter,Chapter,Alexandria,Virginia,United States,38.031912329325756,-78.09280878889672,2026-06-19
+a0M6g00000W36Sv,Dr. Christine Mann Darden - Newport News (VA) LINKS-NSBE Jr. Chapter,Primary Zone,Region 2,NSBE Jr. Chapter,Chapter,Yorktown,Virginia,United States,37.73009702047718,-77.86481175039499,2026-06-19
+a0M6g00000W36Tm,At Large Pci (Region 3),At-Large,Region 3,NSBE Jr. Chapter,Chapter,Alexandria,Virginia,United States,38.01712606330306,-78.29441702832393,2026-06-19
+a0M6g00000W36Wt,At Large Pci (Region 5),At-Large,Region 5,NSBE Jr. Chapter,Chapter,Alexandria,Virginia,United States,37.80052088142894,-78.17709102073528,2026-06-19
+a0M6g00000W36YW,Reston Links NSBE Jr Chapter,Terror Zone,Region 2,NSBE Jr. Chapter,Chapter,Stone Ridge,Virginia,United States,37.8618787500804,-78.28609011312886,2026-06-19
+a0M6g00001fvnC4,LCPS Links NSBE Jr Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Aldie,Virginia,United States,37.590280500536124,-77.88109771532112,2026-06-19
+a0M6g00001sYliX,"Academies of Loudoun High School NSBE, Jr. Chapter",,Region 2,NSBE Jr. Chapter,Non-Member,Leesburg,Virginia,United States,38.066049149648954,-77.92964197996662,2026-06-19
+a0MUJ000000pC7B,Lightridge High School NSBE Jr. Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Stone Ridge,Virginia,United States,38.104080101535196,-77.99847393195421,2026-06-19
+a0MUJ000002Uhkj,"The Link Club, Arlington (VA) Links NSBE Chapter",,Region 2,NSBE Jr. Chapter,Non-Member,Alexandria,Virginia,United States,37.9546040599934,-77.98615493562615,2026-06-19
+a0MUJ000002UiFN,"Mount Zion Baptist Church Future Engineers Arlington (VA) Links, NSBE Jr Chapter",,Region 2,NSBE Jr. Chapter,Non-Member,Arlington,Virginia,United States,37.75576234165961,-78.20045146384001,2026-06-19
+a0MUJ000002VSdB,Virginia University Preparatory NSBE Jr Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Petersburg,Virginia,United States,37.5874953933043,-78.0685945639485,2026-06-19
+a0MUJ000003esET,Park View High School - Loudoun County (VA) Links NSBE Jr Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Sterling,Virginia,United States,37.62186109527163,-78.33950211320835,2026-06-19
+a0MUJ000009LeQH,Loudoun County Area Alliance NSBE Jr Chapter,,Region 2,NSBE Jr. Chapter,Non-Member,Leesburg,Virginia,United States,37.82950996186724,-78.23298032824246,2026-06-19
+a0MUJ000009mgML,GradNSBE at University of Virginia,,Region 2,Collegiate Chapter,Non-Member,Charlottesville,Virginia,United States,37.57253662615624,-77.94872878827302,2026-06-19
+a0M6g00000BqR59,Washington State University,Northwest Zone,Region 6,Collegiate Chapter,Chapter,Pullman,Washington,United States,47.65330094350607,-121.72310433622555,2026-06-19
+a0M6g00000BqR5C,University Of Washington - Seattle,Northwest Zone,Region 6,Collegiate Chapter,Chapter,Seattle,Washington,United States,47.05615692296,-121.60520302202944,2026-06-19
+a0MUJ000002ALRp,Seattle Pacific University,,Region 6,Collegiate Chapter,Non-Member,Seattle,Washington,United States,47.60915958497653,-121.25307229363597,2026-06-19
+a0M6g00000BqR0y,West Virginia University,End Zone,Region 2,Collegiate Chapter,Chapter,Morgantown,West Virginia,United States,38.23805634908123,-80.76241786917187,2026-06-19
+a0M6g00000BqR2d,Milwaukee School Of Engineering,Primary Zone,Region 4,Collegiate Chapter,Chapter,MILWAUKEE,Wisconsin,United States,43.9995359171166,-89.69346418689042,2026-06-19
+a0M6g00000BqR2u,University of Wisconsin-Milwaukee NSBE Chapter,Primary Zone,Region 4,Collegiate Chapter,Chapter,Milwaukee,Wisconsin,United States,44.617569660508344,-89.83169442373836,2026-06-19
+a0M6g00000W35Ln,Milwaukee Area Professionals,Primary Zone,Region 4,Professional Chapter,Chapter,Milkwaukee,Wisconsin,United States,44.026317507804336,-89.67054776721724,2026-06-19
+a0M6g00000W35Xx,Madison East High School NSBE Jr.,PCI Zone,Region 4,NSBE Jr. Chapter,Chapter,Madison,Wisconsin,United States,44.352310968178905,-89.31347745231072,2026-06-19
+a0M6g00002WLMSJ,Wisconsin Black Engineering Student Society,,Region 4,Collegiate Chapter,Non-Member,Madison,Wisconsin,United States,44.60511780187313,-89.91775955438602,2026-06-19
+a0M6g00000W35Zj,University of Wyoming,Rocky Mountain Zone,Region 6,Collegiate Chapter,Chapter,Laramie,Wyoming,United States,42.50256426214354,-107.0989734182728,2026-06-19
+Total,559,,,,,,,,,,2026-06-19
+Confidential Information - Do Not Distribute,,,,,,,,,,,2026-06-19
+"Copyright © 2000-2026 salesforce.com, inc. All rights reserved.",,,,,,,,,,,2026-06-19

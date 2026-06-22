@@ -174,4 +174,33 @@ Define a baseline before any tuning; compare against it.
 |---|---|---|
 | Ingest robustness | % rows validated without manual fix, across N real sheets | ≥ 0.95 |
 | Snapshot integrity | duplicate-upload double-count incidents | 0 (hash dedup) |
-| Insight correctness | engine deltas vs hand
+| Insight correctness | engine deltas vs hand-computed on fixtures | 100% match |
+| Recipe correctness | each saved recipe's filtered count vs hand-check on fixtures | 100% match |
+| Geocode coverage | % chapters mapped to a centroid (unmapped flagged, not dropped) | ≥ 0.98 |
+| Dashboard load | time to render cached insights | < 1 s |
+
+The NL eval set is the highest-leverage artifact: a small labeled file of `(question → expected template+params)` lets you measure routing accuracy on every prompt change instead of eyeballing it.
+
+---
+
+## 7. Tradeoffs
+
+- **Preset templates vs free-form pandas:** chose safety + measurable accuracy over open-ended flexibility. Cost: new question types need a new template (a function + an eval row). Mitigation: templates are cheap to add.
+- **DuckDB/Parquet vs a hosted DB:** chose zero-ops local simplicity. Cost: concurrent multi-user writes aren't a goal — fine, since ingest is single-operator. The read path scales to hosted unchanged.
+- **Streamlit vs Dash/custom React:** chose development speed and a trivial hosting path. Cost: less layout control. Acceptable for an internal dashboard.
+
+---
+
+## 8. Incremental rollout (validate each phase before the next)
+
+1. **Phase 1 — Pipeline spine:** ingest + snapshot store + manifest. Validate on 2–3 real sheets. *Exit: snapshots stored, dedup works.*
+2. **Phase 2 — Insights:** deltas + churn + time series, cached. *Exit: numbers match hand calc on fixtures.*
+3. **Phase 3 — Dashboard:** Streamlit views over cached insights. *Exit: peers could read it locally.*
+4. **Phase 4 — NL router:** template registry + Claude routing + eval set. *Exit: ≥0.90 routing accuracy.*
+5. **Phase 5 — Hosting:** containerize, mount the data volume, add light auth. *Exit: a peer opens the URL.*
+
+---
+
+## 9. Teachable insight
+
+**Push correctness to the boundary, keep the interior closed.** Two decisions carry most of this design: (a) normalizing to a canonical schema at ingest, and (b) routing NL to a *closed set* of vetted templates rather than open code generation. Both shrink the surface where things can go wrong to a place you can validate once — a Pydantic model and a template registry — so everything downstream inherits that correctness. The same pattern generalizes to any agentic data system: constrain the model to choosing among trusted operations, validate inputs at the edge, and you trade a little flexibility for large gains in reliability and measurability.

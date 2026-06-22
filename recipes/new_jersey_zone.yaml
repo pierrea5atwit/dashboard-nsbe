@@ -1,0 +1,5 @@
+name: "New Jersey Zone"
+snapshot: latest
+filters:
+  zone: [New Jersey Zone]
+outputs: [map, table, list]

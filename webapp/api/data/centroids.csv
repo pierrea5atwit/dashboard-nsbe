@@ -1,0 +1,78 @@
+country,state,lat,lon
+United States,Alabama,32.806671,-86.79113
+United States,Alaska,61.370716,-152.404419
+United States,Arizona,33.729759,-111.431221
+United States,Arkansas,34.969704,-92.373123
+United States,California,36.116203,-119.681564
+United States,Colorado,39.059811,-105.311104
+United States,Connecticut,41.597782,-72.755371
+United States,Delaware,39.318523,-75.507141
+United States,District of Columbia,38.897438,-77.026817
+United States,Florida,27.766279,-81.686783
+United States,Georgia,33.040619,-83.643074
+United States,Hawaii,21.094318,-157.498337
+United States,Idaho,44.240459,-114.478828
+United States,Illinois,40.349457,-88.986137
+United States,Indiana,39.849426,-86.258278
+United States,Iowa,42.011539,-93.210526
+United States,Kansas,38.5266,-96.726486
+United States,Kentucky,37.66814,-84.670067
+United States,Louisiana,31.169546,-91.867805
+United States,Maine,44.693947,-69.381927
+United States,Maryland,39.063946,-76.802101
+United States,Massachusetts,42.230171,-71.530106
+United States,Michigan,43.326618,-84.536095
+United States,Minnesota,45.694454,-93.900192
+United States,Mississippi,32.741646,-89.678696
+United States,Missouri,38.456085,-92.288368
+United States,Montana,46.921925,-110.454353
+United States,Nebraska,41.12537,-98.268082
+United States,Nevada,38.313515,-117.055374
+United States,New Hampshire,43.452492,-71.563896
+United States,New Jersey,40.298904,-74.521011
+United States,New Mexico,34.840515,-106.248482
+United States,New York,42.165726,-74.948051
+United States,North Carolina,35.630066,-79.806419
+United States,North Dakota,47.528912,-99.784012
+United States,Ohio,40.388783,-82.764915
+United States,Oklahoma,35.565342,-96.928917
+United States,Oregon,44.572021,-122.070938
+United States,Pennsylvania,40.590752,-77.209755
+United States,Rhode Island,41.680893,-71.51178
+United States,South Carolina,33.856892,-80.945007
+United States,South Dakota,44.299782,-99.438828
+United States,Tennessee,35.747845,-86.692345
+United States,Texas,31.054487,-97.563461
+United States,Utah,40.150032,-111.862434
+United States,Vermont,44.045876,-72.710686
+United States,Virginia,37.769337,-78.169968
+United States,Washington,47.400902,-121.490494
+United States,West Virginia,38.491226,-80.954453
+United States,Wisconsin,44.268543,-89.616508
+United States,Wyoming,42.755966,-107.30249
+United States,Puerto Rico,18.220833,-66.590149
+Canada,Alberta,53.9333,-116.5765
+Canada,British Columbia,53.7267,-127.6476
+Canada,Manitoba,53.7609,-98.8139
+Canada,New Brunswick,46.5653,-66.4619
+Canada,Newfoundland and Labrador,53.1355,-57.6604
+Canada,Nova Scotia,44.682,-63.7443
+Canada,Ontario,51.2538,-85.3232
+Canada,Prince Edward Island,46.5107,-63.4168
+Canada,Quebec,52.9399,-73.5491
+Canada,Saskatchewan,52.9399,-106.4509
+United States,,39.8283,-98.5795
+Canada,,56.1304,-106.3468
+Ghana,,7.9465,-1.0232
+Nigeria,,9.082,8.6753
+Liberia,,6.4281,-9.4295
+"Tanzania, United Republic of",,-6.369,34.8888
+Jamaica,,18.1096,-77.2975
+Haiti,,18.9712,-72.2852
+Senegal,,14.4974,-14.4524
+Kenya,,-0.0236,37.9062
+South Africa,,-30.5595,22.9375
+Ethiopia,,9.145,40.4897
+Cote d'Ivoire,,7.54,-5.5471
+Cameroon,,7.3697,12.3547
+Trinidad and Tobago,,10.6918,-61.2225

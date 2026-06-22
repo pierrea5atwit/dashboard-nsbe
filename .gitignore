@@ -1,0 +1,16 @@
+# Data snapshots are not source — keep them local
+data/snapshots/*.xlsx
+data/snapshots/*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store

@@ -33,17 +33,21 @@ pydeck, pandas, etc.). No Vercel-style build config needed.
 
 ## Updating the data later
 
-When you get a new export:
+When you get a new export, drop the `.xlsx` into `data/snapshots/`, then:
 
 ```
-# drop the new .xlsx into data/snapshots/, then:
 python build_clean_data.py
-git add data/chapters_clean.csv
+git add data/*.csv
 git commit -m "Update chapter data"
 git push
 ```
 
 The live app redeploys automatically on push.
+
+**Active vs inactive:** the build script classifies exports by filename — a file with
+**"Inactive"** in its name (e.g. `Chapters_Inactive_As_Of_06_19_2026.xlsx`) becomes the
+grey layer (`data/chapters_inactive_clean.csv`); anything else is the green active layer.
+Add an inactive export the same way and the grey dots + toggle appear automatically.
 
 ## Notes
 

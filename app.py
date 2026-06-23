@@ -16,11 +16,15 @@ from core.ingest import load_snapshot, snapshot_date_from_name
 
 DATA_DIR = Path(__file__).parent / "data"
 SNAPSHOT_DIR = DATA_DIR / "snapshots"
-CLEAN_CSV = DATA_DIR / "chapters_clean.csv"  # committed, PII-free, pre-geocoded (used on cloud)
+CLEAN_CSV = DATA_DIR / "chapters_clean.csv"            # active chapters (green)
+INACTIVE_CSV = DATA_DIR / "chapters_inactive_clean.csv"  # inactive chapters (grey), optional
 RECIPE_DIR = Path(__file__).parent / "recipes"
 
 # Filter dimensions exposed as UI widgets (a subset of engine.FILTER_DIMENSIONS).
 UI_DIMENSIONS = {"zone": "Zone", "region": "Region", "chapter_type": "Type", "country": "Country"}
+
+ACTIVE_COLOR = [34, 197, 94, 200]    # green
+INACTIVE_COLOR = [148, 163, 184, 150]  # grey
 
 st.set_page_config(page_title="Chapter Dashboard", layout="wide")
 
@@ -56,6 +60,18 @@ def load_data() -> tuple[pd.DataFrame, str]:
     if path is None:
         return pd.DataFrame(), ""
     return _load(str(path), path.stat().st_mtime), path.name
+
+
+@st.cache_data(show_spinner=False)
+def _load_inactive(_mtime: float) -> pd.DataFrame:
+    return pd.read_csv(INACTIVE_CSV)
+
+
+def load_inactive() -> pd.DataFrame:
+    """Inactive chapters (grey), if the committed file is present; else empty."""
+    if INACTIVE_CSV.exists():
+        return _load_inactive(INACTIVE_CSV.stat().st_mtime)
+    return pd.DataFrame()
 
 
 def _apply_recipe_to_widgets(recipe: engine.Recipe) -> None:
@@ -102,51 +118,86 @@ def main() -> None:
     if msg := st.session_state.get("_recipe_warning"):
         st.warning(msg)
 
+    inactive_df = load_inactive()
+
     # --- Manual filters (same engine code path as recipes) ----------------
+    # Options span both datasets so a value unique to inactive chapters is selectable.
+    opt_source = pd.concat([df, inactive_df]) if not inactive_df.empty else df
     cols = st.columns(len(UI_DIMENSIONS))
     filters: dict[str, list[str]] = {}
-    for col, (dim, label) in zip(cols, UI_DIMENSIONS.items()):
+    for col, (dim, lbl) in zip(cols, UI_DIMENSIONS.items()):
         with col:
-            opts = sorted(df[dim].dropna().astype(str).unique())
-            filters[dim] = st.multiselect(label, opts, key=dim)
+            opts = sorted(opt_source[dim].dropna().astype(str).unique())
+            filters[dim] = st.multiselect(lbl, opts, key=dim)
 
     result = engine.apply_filters(df, filters)
-    st.metric("Chapters matching filter", len(result))
+    inactive_result = (
+        engine.apply_filters(inactive_df, filters) if not inactive_df.empty else inactive_df
+    )
 
-    # --- Map ---------------------------------------------------------------
-    mapped = result.dropna(subset=["lat", "lon"])
-    if len(mapped):
-        layer = pdk.Layer(
-            "ScatterplotLayer",
-            data=mapped,
-            get_position="[lon, lat]",
-            get_radius=22000,
-            get_fill_color=[200, 30, 80, 160],
-            pickable=True,
+    # Toggle + counts
+    show_inactive = False
+    if inactive_df.empty:
+        st.metric("Active chapters matching filter", len(result))
+    else:
+        show_inactive = st.checkbox("Show inactive chapters (grey)", value=True)
+        c1, c2 = st.columns(2)
+        c1.metric("Active (green)", len(result))
+        c2.metric("Inactive (grey)", len(inactive_result))
+
+    # --- Map (active green + optional inactive grey) ----------------------
+    layers = []
+    a_mapped = result.dropna(subset=["lat", "lon"])
+    if len(a_mapped):
+        layers.append(
+            pdk.Layer(
+                "ScatterplotLayer", data=a_mapped, get_position="[lon, lat]",
+                get_radius=22000, get_fill_color=ACTIVE_COLOR, pickable=True,
+            )
         )
+    i_mapped = (
+        inactive_result.dropna(subset=["lat", "lon"]) if not inactive_result.empty else inactive_result
+    )
+    if show_inactive and len(i_mapped):
+        layers.append(
+            pdk.Layer(
+                "ScatterplotLayer", data=i_mapped, get_position="[lon, lat]",
+                get_radius=22000, get_fill_color=INACTIVE_COLOR, pickable=True,
+            )
+        )
+
+    if layers:
         view = pdk.ViewState(latitude=20.0, longitude=-40.0, zoom=1.3)
         st.pydeck_chart(
             pdk.Deck(
-                layers=[layer],
+                layers=layers,
                 initial_view_state=view,
                 tooltip={"text": "{chapter_name}\n{city}, {state} {country}"},
             )
         )
-        if len(mapped) < len(result):
-            st.caption(f"{len(result) - len(mapped)} chapter(s) had no mappable location.")
+        legend = "🟢 active" + ("  ·  ⚪ inactive" if show_inactive and len(i_mapped) else "")
+        st.caption(legend)
     else:
         st.info("No chapters with mappable locations for this filter.")
 
-    # --- Text list + download ---------------------------------------------
-    names = engine.chapter_name_list(result)
-    st.subheader(f"Chapters ({len(names)})")
-    st.dataframe(pd.DataFrame({"Chapter": names}), use_container_width=True, hide_index=True)
-    st.download_button(
-        "Download list (.txt)",
-        data="\n".join(names),
-        file_name="chapters.txt",
-        mime="text/plain",
-    )
+    # --- Text lists + downloads -------------------------------------------
+    def _name_list(container, title, frame, fname, key):
+        names = engine.chapter_name_list(frame)
+        container.subheader(f"{title} ({len(names)})")
+        container.dataframe(
+            pd.DataFrame({"Chapter": names}), use_container_width=True, hide_index=True
+        )
+        container.download_button(
+            "Download list (.txt)", data="\n".join(names),
+            file_name=fname, mime="text/plain", key=key,
+        )
+
+    if inactive_df.empty:
+        _name_list(st, "Chapters", result, "chapters.txt", "dl_active")
+    else:
+        lc, rc = st.columns(2)
+        _name_list(lc, "🟢 Active chapters", result, "active_chapters.txt", "dl_active")
+        _name_list(rc, "⚪ Inactive chapters", inactive_result, "inactive_chapters.txt", "dl_inactive")
 
 
 if __name__ == "__main__":

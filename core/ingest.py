@@ -25,6 +25,8 @@ COLUMN_MAP = {
     "Linked Chapter Account: Billing City": "city",
     "Linked Chapter Account: Billing State/Province": "state",
     "Linked Chapter Account: Billing Country": "country",
+    "Linked Chapter Account: Account Email": "email",
+    "Linked Chapter Account: Phone": "phone",
 }
 
 HEADER_MARKER = "Community Group: ID"
@@ -59,18 +61,26 @@ def load_snapshot(path: str | Path) -> tuple[pd.DataFrame, date | None]:
     header = detect_header_row(path)
     df = pd.read_excel(path, skiprows=header)
 
-    missing = [c for c in COLUMN_MAP if c not in df.columns]
-    if missing:
+    # Only id + name are truly required. Other columns are mapped if present and
+    # filled with NA if absent, so exports with slightly different schemas
+    # (e.g. the inactive export, which lacks the chapter Type column) still load.
+    required = ["Community Group: ID", "Community Group: Community Group Name"]
+    missing_required = [c for c in required if c not in df.columns]
+    if missing_required:
         raise ValueError(
-            "Export is missing expected columns: "
-            + ", ".join(missing)
+            "Export is missing required column(s): "
+            + ", ".join(missing_required)
             + ". Update COLUMN_MAP in core/ingest.py if the export format changed."
         )
 
-    df = df[list(COLUMN_MAP)].rename(columns=COLUMN_MAP)
+    present = {src: canon for src, canon in COLUMN_MAP.items() if src in df.columns}
+    df = df[list(present)].rename(columns=present)
+    for canon in COLUMN_MAP.values():  # ensure a uniform set of canonical columns
+        if canon not in df.columns:
+            df[canon] = pd.NA
 
     # Normalize text columns: strip whitespace, treat blanks as NaN.
-    for col in ["zone", "region", "chapter_type", "account_type", "city", "state", "country"]:
+    for col in ["zone", "region", "chapter_type", "account_type", "city", "state", "country", "email", "phone"]:
         df[col] = df[col].astype("string").str.strip().replace({"": pd.NA})
 
     df = df.dropna(subset=["chapter_id"]).reset_index(drop=True)

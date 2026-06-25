@@ -20,7 +20,8 @@ from core.ingest import load_snapshot, snapshot_date_from_name
 
 KEEP = [
     "chapter_id", "chapter_name", "zone", "region", "chapter_type",
-    "account_type", "city", "state", "country", "lat", "lon", "snapshot_date",
+    "account_type", "city", "state", "country", "email", "phone",
+    "lat", "lon", "snapshot_date",
 ]
 
 

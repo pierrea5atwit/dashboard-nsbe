@@ -5,10 +5,15 @@ This gives non-technical peers a link they just click — no install, no login t
 ## What gets deployed
 
 - `app.py` (the dashboard) + `core/` + `recipes/`
-- `data/chapters_clean.csv` — a **PII-free** data file (chapter names, zone/region/type,
-  city/state/country, map coordinates). **No emails, phones, or street addresses.**
-- The raw export (`data/snapshots/*.xlsx`) is **git-ignored and never committed**, so no
-  personal data goes to GitHub even if the repo is public.
+- `data/chapters_clean.csv` and `data/chapters_inactive_clean.csv` — cleaned data
+  (chapter names, zone/region/type, city/state/country, map coordinates, **and chapter
+  email/phone**). Street addresses are NOT included.
+- ⚠️ **Contact info is included by choice.** These files hold chapter emails/phones and are
+  committed to the repo, so on a public app/repo anyone can see them. If you ever want to
+  hide contacts, drop `email`/`phone` from `KEEP` in `build_clean_data.py` and rebuild, or
+  restrict the app via Streamlit Cloud's viewer allow-list.
+- The raw exports (`data/snapshots/*.xlsx`) stay **git-ignored** — street addresses never
+  reach the repo.
 
 ## One-time setup
 

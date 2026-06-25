@@ -74,6 +74,25 @@ def load_inactive() -> pd.DataFrame:
     return pd.DataFrame()
 
 
+def _map_view(active: pd.DataFrame, inactive: pd.DataFrame) -> pdk.ViewState:
+    """Frame the map snugly to the chapter bounding box (US / Canada / Africa)."""
+    import math
+
+    pts = active[["lon", "lat"]]
+    if not inactive.empty:
+        pts = pd.concat([pts, inactive[["lon", "lat"]]])
+    pts = pts.dropna()
+    if pts.empty:
+        return pdk.ViewState(latitude=25.0, longitude=-40.0, zoom=1.3)
+    lon_min, lon_max = pts["lon"].min(), pts["lon"].max()
+    lat_min, lat_max = pts["lat"].min(), pts["lat"].max()
+    # Center on the bbox midpoint so North America and Africa sit symmetrically.
+    center_lon, center_lat = (lon_min + lon_max) / 2, (lat_min + lat_max) / 2
+    span = max(lon_max - lon_min, (lat_max - lat_min) * 1.8, 1.0) * 1.1  # +10% margin
+    zoom = min(max(math.log2(360 / span), 1.0), 5.0)
+    return pdk.ViewState(latitude=center_lat, longitude=center_lon, zoom=zoom)
+
+
 def _apply_recipe_to_widgets(recipe: engine.Recipe) -> None:
     """Populate widget state from a recipe; warn on dims the UI can't show."""
     for dim in UI_DIMENSIONS:
@@ -146,33 +165,37 @@ def main() -> None:
         c2.metric("Inactive (grey)", len(inactive_result))
 
     # --- Map (active green + optional inactive grey) ----------------------
-    layers = []
-    a_mapped = result.dropna(subset=["lat", "lon"])
-    if len(a_mapped):
-        layers.append(
-            pdk.Layer(
-                "ScatterplotLayer", data=a_mapped, get_position="[lon, lat]",
-                get_radius=22000, get_fill_color=ACTIVE_COLOR, pickable=True,
-            )
+    def _scatter(data, color):
+        data = data.copy()
+        for c in ["city", "state", "country", "email", "phone"]:  # blank, not "nan", in tooltip
+            if c in data:
+                data[c] = data[c].fillna("")
+        return pdk.Layer(
+            "ScatterplotLayer", data=data, get_position="[lon, lat]",
+            get_fill_color=color, get_radius=4000,
+            radius_min_pixels=2, radius_max_pixels=6,          # small dots so clusters are legible
+            stroked=True, get_line_color=[20, 24, 33, 180],    # thin dark outline separates overlaps
+            line_width_min_pixels=0.5, opacity=0.85, pickable=True,
         )
+
+    a_mapped = result.dropna(subset=["lat", "lon"])
     i_mapped = (
         inactive_result.dropna(subset=["lat", "lon"]) if not inactive_result.empty else inactive_result
     )
-    if show_inactive and len(i_mapped):
-        layers.append(
-            pdk.Layer(
-                "ScatterplotLayer", data=i_mapped, get_position="[lon, lat]",
-                get_radius=22000, get_fill_color=INACTIVE_COLOR, pickable=True,
-            )
-        )
+
+    layers = []
+    if show_inactive and len(i_mapped):          # grey first → sits beneath green
+        layers.append(_scatter(i_mapped, INACTIVE_COLOR))
+    if len(a_mapped):
+        layers.append(_scatter(a_mapped, ACTIVE_COLOR))
 
     if layers:
-        view = pdk.ViewState(latitude=20.0, longitude=-40.0, zoom=1.3)
         st.pydeck_chart(
             pdk.Deck(
                 layers=layers,
-                initial_view_state=view,
-                tooltip={"text": "{chapter_name}\n{city}, {state} {country}"},
+                initial_view_state=_map_view(df, inactive_df),
+                tooltip={"text": "{chapter_name}\n{city}, {state} {country}\n{email}  {phone}"},
+                map_style=None,
             )
         )
         legend = "🟢 active" + ("  ·  ⚪ inactive" if show_inactive and len(i_mapped) else "")
@@ -180,24 +203,29 @@ def main() -> None:
     else:
         st.info("No chapters with mappable locations for this filter.")
 
-    # --- Text lists + downloads -------------------------------------------
-    def _name_list(container, title, frame, fname, key):
-        names = engine.chapter_name_list(frame)
-        container.subheader(f"{title} ({len(names)})")
-        container.dataframe(
-            pd.DataFrame({"Chapter": names}), use_container_width=True, hide_index=True
+    # --- Text lists + downloads (with contact info) -----------------------
+    def _chapter_table(container, title, frame, fname, key):
+        cols = [c for c in ["chapter_name", "email", "phone"] if c in frame.columns]
+        tbl = (
+            frame[cols]
+            .drop_duplicates(subset="chapter_name")
+            .sort_values("chapter_name")
+            .rename(columns={"chapter_name": "Chapter", "email": "Email", "phone": "Phone"})
         )
+        container.subheader(f"{title} ({len(tbl)})")
+        container.dataframe(tbl, use_container_width=True, hide_index=True)
+        names = engine.chapter_name_list(frame)
         container.download_button(
-            "Download list (.txt)", data="\n".join(names),
+            "Download names (.txt)", data="\n".join(names),
             file_name=fname, mime="text/plain", key=key,
         )
 
     if inactive_df.empty:
-        _name_list(st, "Chapters", result, "chapters.txt", "dl_active")
+        _chapter_table(st, "Chapters", result, "chapters.txt", "dl_active")
     else:
         lc, rc = st.columns(2)
-        _name_list(lc, "🟢 Active chapters", result, "active_chapters.txt", "dl_active")
-        _name_list(rc, "⚪ Inactive chapters", inactive_result, "inactive_chapters.txt", "dl_inactive")
+        _chapter_table(lc, "🟢 Active chapters", result, "active_chapters.txt", "dl_active")
+        _chapter_table(rc, "⚪ Inactive chapters", inactive_result, "inactive_chapters.txt", "dl_inactive")
 
 
 if __name__ == "__main__":
